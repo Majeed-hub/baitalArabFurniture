@@ -1,4 +1,8 @@
-import React from 'react';
+import React from "react";
+import { useState } from "react";
+import "./Navbar.css";
+import { Outlet, Link } from "react-router-dom";
+import logo from "../../Assests/images/logo.png";
 
 const Navbar = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -6,12 +10,14 @@ const Navbar = () => {
   return (
     <>
       <nav className="navigation">
-       <span className="logo"><img src={logo}/></span>
-       
-          <Link to="/" className="brand-name">
-            baitalArabFurniture
-          </Link>
-      
+        <span className="logo">
+          <img src={logo} />
+        </span>
+
+        <Link to="/" className="brand-name">
+          baitalArabFurniture
+        </Link>
+
         <button
           className="hamburger"
           onClick={() => {
