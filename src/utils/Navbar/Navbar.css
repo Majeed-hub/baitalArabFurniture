@@ -6,25 +6,35 @@
     align-items: center;
     position: relative;
     padding: 0.5rem 0rem;
-    background-color: #fff;
+    background-color: #FAF8F1;
     color: black;
-    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+    /* box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23); */
+    border-bottom: 1px solid gray;
+}
+img{
+    width:65px;
+    height:70px;
 }
 
+/* brand name font style is imported from google api */
+@import url('https://fonts.googleapis.com/css2?family=Nova+Slim&display=swap');
 .brand-name {
     text-decoration: none;
     color: black;
-    font-size: 1.3rem;
-    margin-left: 1rem;
+    font-size: 1.4rem;
+    margin-left: 0.2rem;
+    font-family:'Nova Slim' ;
 }
 
 .navigation-menu {
     margin-left: auto;
+    margin-right: 15px;
 }
 
 .navigation-menu ul {
     display: flex;
     padding: 0;
+   
 }
 
 .navigation-menu li {
@@ -47,7 +57,7 @@
     width: 40px;
     padding: 0.5rem;
     border-radius: 50%;
-    background-color: #283b8b;
+    background-color: #28768b;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
     /* positions the icon to the right and center aligns it vertically */
@@ -59,7 +69,7 @@
 }
 
 .hamburger:hover {
-    background-color: #2642af;
+    background-color: #16596c;
 }
 
 /* Mobile style */
