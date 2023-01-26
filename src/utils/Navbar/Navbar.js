@@ -1,6 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import './Navbar.css'
+import { Outlet, Link } from "react-router-dom";
+
 const Navbar = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
@@ -37,13 +39,20 @@ const Navbar = () => {
         >
           <ul>
             <li>
-              <a href="/home">Home</a>
+              {/* <a href="/home">Home</a> */}
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="/about">About</a>
+              {/* <a href="/about">Porfolio</a> */}
+              <Link to="portfolio">Porfolio</Link>
             </li>
             <li>
-              <a href="/contact">Contact</a>
+              {/* <a href="/about">About</a> */}
+              <Link to="aboutus">About</Link>
+            </li>
+            <li>
+              {/* <a href="/contact">Contact</a> */}
+              <Link to="blog">Blogs</Link>
             </li>
           </ul>
         </div>
