@@ -13,7 +13,7 @@
 }
 img{
     width:65px;
-    height:60px;
+    height:55px;
 }
 
 /* brand name font style is imported from google api */
@@ -34,7 +34,7 @@ img{
 .navigation-menu ul {
     display: flex;
     padding: 0;
-    margin: 0;
+   
    
 }
 
@@ -85,7 +85,7 @@ img{
         .navigation-menu ul {
              /* navigation menu is positioned to start 60px from the top of the document (which is directly below the navbar) */
             position: absolute;
-            top: 60px;
+            top: 50px;
             left: 0;
              /* stacks the li tags vertically  */
             flex-direction: column;
