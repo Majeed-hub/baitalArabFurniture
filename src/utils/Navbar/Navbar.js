@@ -10,12 +10,14 @@ const Navbar = () => {
   return (
     <>
       <nav className="navigation">
-       <span className="logo"><img src={logo}/></span>
-       
-          <Link to="/" className="brand-name">
-            baitalArabFurniture
-          </Link>
-      
+        <span className="logo">
+          <img src={logo} />
+        </span>
+
+        <Link to="/" className="brand-name">
+          baitalArabFurniture
+        </Link>
+
         <button
           className="hamburger"
           onClick={() => {
@@ -55,7 +57,7 @@ const Navbar = () => {
               <Link to="aboutus">About</Link>
             </li>
             <li>
-              {/* <a href="/contact">Contact</a> */}
+              {/* <a href="/contact">Contacst</a> */}
               <Link to="blog">Blogs</Link>
             </li>
           </ul>
