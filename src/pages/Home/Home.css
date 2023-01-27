@@ -1,0 +1,6 @@
+.banner-img {
+  width: 100vw;
+  height: calc(100vh - 50px);
+  /* object-fit: contain; */
+  /* height: 100vh; */
+}
