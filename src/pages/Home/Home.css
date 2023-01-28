@@ -4,6 +4,10 @@
   /* object-fit: contain; */
   /* height: 100vh; */
 }
+.productContainer{
+width: 80%;
+margin: auto;
+}
 
 .productContainer .productTitle {
   margin: 10px 0 25px 10px;

@@ -1,5 +1,6 @@
 .portfolioContainer {
-  margin-left: 10px;
+  width: 80%;
+  margin: auto;
 }
 
 .portfolioContainer .portfolioTitle {
