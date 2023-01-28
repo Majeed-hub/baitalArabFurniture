@@ -20,6 +20,7 @@ const Navbar = () => {
 
         <button
           className="hamburger"
+          
           onClick={() => {
             setIsNavExpanded(!isNavExpanded);
           }}
