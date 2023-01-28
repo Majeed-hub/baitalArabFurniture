@@ -1,36 +1,34 @@
 import React from "react";
-import './Footer.css';
+import "./Footer.css";
 
 const Footer = () => {
   return (
     <div className="box">
-      <h1 style={{ color: "black", textAlign: "center", marginTop: "-50px" }}>
-        baitalArabFurniture
-      </h1>
       <div className="container">
         <div className="row">
           <div className="column">
-            <p className="heading">About Us</p>
-            <a className="Footerlink" href="#">Aim</a>
-            <a className="Footerlink" href="#">Vision</a>
-            <a className="Footerlink" href="#">Testimonials</a>
-          </div>
-          <div className="column">
-            <p className="heading">Services</p>
-            <a className="Footerlink" href="#">Writing</a>
-            <a className="Footerlink" href="#">Internships</a>
-            <a className="Footerlink" href="#">Coding</a>
-            <a className="Footerlink" href="#">Teaching</a>
-          </div>
-          <div className="column">
-            <p className="heading">Contact Us</p>
-            <a className="Footerlink" href="#">Uttar Pradesh</a>
-            <a className="Footerlink" href="#">Ahemdabad</a>
-            <a className="Footerlink" href="#">Indore</a>
-            <a className="Footerlink" href="#">Mumbai</a>
-          </div>
-          <div className="column">
-            <p className="heading" >Social Media</p>
+            <h4
+              style={{
+                color: "black",
+                textAlign: "center",
+              }}
+            >
+              baitalArabFurniture
+            </h4>
+            <p className="description" style={{ fontSize: "10px" }}>
+              Adipisicing laborum aliqua ad aliquip ad. Dolore deserunt elit
+              velit nulla officia nisi anim velit laboris. Eu ex laborum
+              consequat ut cillum esse quis laborum cupidatat consequat
+              exercitation in.
+            </p>
+            <div
+              className="social-links"
+              style={{ display: "flex", justifyContent: "space-between" }}
+            >
+              <a href="">instagram</a>
+              <a href="">facebook</a>
+              <a href="">linkedIn</a>
+              {/* <p className="heading">Social Media</p>
             <a className="Footerlink" href="#">
               <i className="fab fa-facebook-f">
                 <span style={{ marginLeft: "10px" }}>Facebook</span>
@@ -50,7 +48,80 @@ const Footer = () => {
               <i className="fab fa-youtube">
                 <span style={{ marginLeft: "10px" }}>Youtube</span>
               </i>
-            </a>
+            </a> */}
+            </div>
+            <div>
+              <h3 className="heading" style={{ textAlign: "center" }}>
+                address
+              </h3>
+              <p className="address" style={{ textAlign: "center" }}>
+                xyz street, opp abc hotel,
+                <br /> dubai uae
+              </p>
+            </div>
+          </div>
+
+          <div className="column">
+            <h4
+              className="heading"
+              style={{
+                color: "black",
+                textAlign: "center",
+              }}
+            >
+              Location
+            </h4>
+            <div
+              class="mapouter"
+              style={{
+                position: "relative",
+                textAlign: "right",
+                height: "232px",
+                width: "289px",
+              }}
+            >
+              <div
+                class="gmap_canvas"
+                style={{
+                  overflow: "hidden",
+                  background: "none",
+                  height: "232px",
+                  width: "289px",
+                }}
+              >
+                <iframe
+                  width="289"
+                  height="240"
+                  id="gmap_canvas"
+                  src="https://maps.google.com/maps?q=dubai&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                  frameborder="0"
+                  scrolling="no"
+                  marginheight="0"
+                  marginwidth="0"
+                ></iframe>
+                <a href="https://www.whatismyip-address.com"></a>
+                <br />
+
+                <a href="https://www.embedgooglemap.net"></a>
+              </div>
+            </div>
+          </div>
+          <div className="column">
+            <form>
+              <h4
+                className="heading"
+                style={{
+                  color: "black",
+                  textAlign: "center",
+                }}
+              >
+                Contact us
+              </h4>
+              <input type="text" /> <br />
+              <br />
+              <input type="text" /> <br/> <br/>
+              <input type="submit" />
+            </form>
           </div>
         </div>
       </div>
