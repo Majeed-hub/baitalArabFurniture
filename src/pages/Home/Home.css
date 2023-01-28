@@ -1,8 +1,17 @@
 .banner-img {
   width: 100vw;
-  height: calc(100vh - 50px);
+  height: calc(90vh - 50px);
   /* object-fit: contain; */
   /* height: 100vh; */
+}
+@media screen and (max-width:640px)
+{
+  .banner-img {
+      width: 100%;
+      height: calc(60vh - 50px);
+      /* object-fit: contain; */
+      /* height: 100vh; */
+    }
 }
 .productContainer{
 width: 80%;
@@ -15,14 +24,6 @@ margin: auto;
 }
 
 .productContainer .productTitle h2 {
-  margin-bottom: 0;
-  font-family: 'Belleza', sans-serif;
-  font-size: 45px;
-}
-
-/* Two lines below product start*/
-.productContainer .productTitle h2::before {
-  content: '';
   height: 3px;
   width: 130px;
   background-color: #f3af3b;
