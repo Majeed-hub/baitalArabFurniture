@@ -12,6 +12,7 @@ body{
     font-size: 1.4rem;
     margin-left: 0.2rem;
     font-family: 'Nova Slim';
+    padding: 10px;
 }
 
 .container{
@@ -22,15 +23,16 @@ body{
         margin: 0 auto;
         /* height: 40vh; */
         padding: 20px;
-        max-height: 100vh;
+        max-height: 110vh;
 }
 
 .box{
     padding: 40px 40px;
         background: #FAF8F1;
         position: absolute;
-        bottom: 0;
+        bottom: -1000;
         width: 100%;
+        margin-top: 20px;
     
       
 }
@@ -54,17 +56,10 @@ body{
 }
 @media (max-width: 1000px){
     .row{
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
         }
         .column{
             margin:auto;
-        }
-        .box{
-            padding: 0;
-        }
-        .container{
-            padding: 0;
-            
         }
 } 
 
@@ -98,6 +93,7 @@ form{
     padding: 15px;
     border-radius: 10px;
     height: 270px;
+    width: 300px;
 }
 form input[type='text']{
    width: 100%; 

@@ -1,6 +1,9 @@
 import React from 'react';
 import './Home.css';
 import Banner from '../../Assests/images/DesktopHeroSection.png';
+import Banner_2 from "../../Assests/images/LivingRoom.jpg";
+import Banner_3 from "../../Assests/images/Modern_Wardrobe.jpg";
+
 // import Banner1 from '../../Assests/images/DesktopHeroSection1.png';
 import Sofa1 from '../../Assests/images/sofa1.png';
 import Bed1 from '../../Assests/images/bed.png';
@@ -19,19 +22,19 @@ const Home = () => {
           <div className="carousel-item active">
             <img src={Banner} className="d-block banner-img" alt="..." />
             <div className="carousel-caption d-none d-md-block">
-              <h5>HOUSTON PRIVATE APARTMENT INTERIOR</h5>
+              <h5>Premium furniture</h5>
             </div>
           </div>
           <div className="carousel-item">
-            <img src={Banner} className="d-block banner-img" alt="..." />
+            <img src={Banner_2} className="d-block banner-img" alt="..." />
             <div className="carousel-caption d-none d-md-block">
-              <h5>HOUSTON PRIVATE APARTMENT INTERIOR</h5>
+              <h5>living room furniture</h5>
             </div>
           </div>
           <div className="carousel-item">
-            <img src={Banner} className="d-block banner-img" alt="..." />
+            <img src={Banner_3} className="d-block banner-img" alt="..." />
             <div className="carousel-caption d-none d-md-block">
-              <h5>HOUSTON PRIVATE APARTMENT INTERIOR</h5>
+              <h5>modern wardrobe</h5>
             </div>
           </div>
         </div>

@@ -16,7 +16,7 @@ const Footer = () => {
             >
               baitalArabFurniture
             </h4>
-            <p className="description" style={{ fontSize: "10px" }}>
+            <p className="description" style={{ fontSize: "10px", padding:"4px" }}>
               Adipisicing laborum aliqua ad aliquip ad. Dolore deserunt elit
               velit nulla officia nisi anim velit laboris. Eu ex laborum
               consequat ut cillum esse quis laborum cupidatat consequat
@@ -24,7 +24,7 @@ const Footer = () => {
             </p>
             <div
               className="social-links"
-              style={{ display: "flex", justifyContent: "space-between" }}
+              style={{ display: "flex", justifyContent: "space-around" }}
             >
               <a
                 href=""
@@ -138,16 +138,16 @@ const Footer = () => {
               <input
                 type="text"
                 placeholder="Enter your name"
-                style={{ height: "35px", padding: "7px" }}
+                style={{ height: "35px", padding: "10px" }}
               />
               <br />
               <br />
               <input
                 type="text"
                 className="textField"
-                style={{ height: "90px", padding: "7px" }}
+                style={{ height: "90px", padding: "10px" }}
                 placeholder="Enter your query"
-              />{" "}
+              />
               <br /> <br />
               <input type="submit" />
             </form>
