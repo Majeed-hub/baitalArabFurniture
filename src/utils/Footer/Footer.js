@@ -7,7 +7,8 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="column">
-            <h4 className="brand-name"
+            <h4
+              className="brand-name"
               style={{
                 color: "black",
                 textAlign: "center",
@@ -15,7 +16,7 @@ const Footer = () => {
             >
               baitalArabFurniture
             </h4>
-            <p className="description" style={{ fontSize: "10px", }}>
+            <p className="description" style={{ fontSize: "10px" }}>
               Adipisicing laborum aliqua ad aliquip ad. Dolore deserunt elit
               velit nulla officia nisi anim velit laboris. Eu ex laborum
               consequat ut cillum esse quis laborum cupidatat consequat
@@ -25,9 +26,25 @@ const Footer = () => {
               className="social-links"
               style={{ display: "flex", justifyContent: "space-between" }}
             >
-              <a href="">instagram</a>
-              <a href="">facebook</a>
-              <a href="">linkedIn</a>
+              <a
+                href=""
+                className="footerlink"
+                style={{ textDecoration: "none", fontFamily: "Pacifico" }}
+              >
+                instagram
+              </a>
+              <a
+                href=""
+                style={{ textDecoration: "none", fontFamily: "Pacifico" }}
+              >
+                facebook
+              </a>
+              <a
+                href=""
+                style={{ textDecoration: "none", fontFamily: "Pacifico" }}
+              >
+                linkedIn
+              </a>
               {/* <p className="heading">Social Media</p>
             <a className="Footerlink" href="#">
               <i className="fab fa-facebook-f">
@@ -51,7 +68,7 @@ const Footer = () => {
             </a> */}
             </div>
             <div>
-              <h3 className="heading" style={{ textAlign: "center" }}>
+              <h3 className="heading" style={{ textAlign: "center", fontFamily:'Belleza', margin:"20px"}}>
                 address
               </h3>
               <p className="address" style={{ textAlign: "center" }}>
@@ -87,13 +104,12 @@ const Footer = () => {
                   background: "none",
                   height: "232px",
                   width: "289px",
-                  borderRadius: "10px"
+                  borderRadius: "10px",
                 }}
               >
                 <iframe
                   width="289"
                   height="240"
-                  
                   id="gmap_canvas"
                   src="https://maps.google.com/maps?q=dubai&t=&z=13&ie=UTF8&iwloc=&output=embed"
                   frameBorder="0"

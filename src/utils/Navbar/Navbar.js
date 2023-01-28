@@ -46,19 +46,47 @@ const Navbar = () => {
           <ul>
             <li>
               {/* <a href="/home">Home</a> */}
-              <Link to="/">Home</Link>
+              <Link
+                onClick={() => {
+                  setIsNavExpanded(!isNavExpanded);
+                }}
+                to="/"
+              >
+                Home
+              </Link>
             </li>
             <li>
               {/* <a href="/about">Porfolio</a> */}
-              <Link to="portfolio">Porfolio</Link>
+              <Link
+                to="portfolio"
+                onClick={() => {
+                  setIsNavExpanded(!isNavExpanded);
+                }}
+              >
+                Porfolio
+              </Link>
             </li>
             <li>
               {/* <a href="/about">About</a> */}
-              <Link to="aboutus">About</Link>
+              <Link
+                to="aboutus"
+                onClick={() => {
+                  setIsNavExpanded(!isNavExpanded);
+                }}
+              >
+                About
+              </Link>
             </li>
             <li>
               {/* <a href="/contact">Contact</a> */}
-              <Link to="blog">Blogs</Link>
+              <Link
+                to="blog"
+                onClick={() => {
+                  setIsNavExpanded(!isNavExpanded);
+                }}
+              >
+                Blogs
+              </Link>
             </li>
           </ul>
         </div>
