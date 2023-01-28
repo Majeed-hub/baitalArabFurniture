@@ -1,0 +1,117 @@
+/* brand name font style is imported from google api */
+@import url('https://fonts.googleapis.com/css2?family=Nova+Slim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=belleza&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+    box-sizing: border-box;
+
+}
+.brand-name {
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+    margin-left: 0.2rem;
+    font-family: 'Nova Slim';
+}
+
+.container{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 1000px;
+        margin: 0 auto;
+        /* height: 40vh; */
+        padding: 20px;
+        max-height: 100vh;
+}
+
+.box{
+    padding: 40px 40px;
+        background: #FAF8F1;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    
+      
+}
+ 
+
+.column{
+    display: flex;
+        flex-direction: column;
+        /* text-align: left;     */
+        /* margin-left: 60px; */
+        width: 300px;
+       
+}
+
+.row{
+    display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-gap: 10px;
+        justify-content: space-around;
+        
+}
+@media (max-width: 1000px){
+    .row{
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        }
+        .column{
+            margin:auto;
+        }
+        .box{
+            padding: 0;
+        }
+        .container{
+            padding: 0;
+            
+        }
+} 
+
+ p .footerlink{
+    /* background-color: #fff; */
+        margin-bottom: 20px;
+        /* font-size: 18px; */
+        text-decoration: none;
+        font-family: 'Pacifico';
+/*     
+        &:hover {
+            color: green;
+            transition: 200ms ease-in;
+        } */
+}
+
+p.heading{
+    font-size: 18px;
+    color: rgba(40, 40, 40, 0);
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 7px;
+    font-family: 'Belleza';
+}
+p.description{
+    font-size: 15px;
+}
+form{
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 10px;
+    height: 270px;
+}
+form input[type='text']{
+   width: 100%; 
+   background-color: #FAF8F1;
+   border-radius: 10px;
+   border:none;
+}
+input .textField{
+    height: 90px;
+}
+ input[type="submit"]{
+    border: none;
+    background-color: yellow;
+    color: rgb(49, 48, 48);
+    padding: 5px 9px;
+    border-radius: 7px;
+ }
