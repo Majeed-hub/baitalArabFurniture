@@ -24,6 +24,14 @@ margin: auto;
 }
 
 .productContainer .productTitle h2 {
+  margin-bottom: 0;
+  font-family: 'Belleza', sans-serif;
+  font-size: 45px;
+}
+
+/* Two lines below product start*/
+.productContainer .productTitle h2::before {
+  content: '';
   height: 3px;
   width: 130px;
   background-color: #f3af3b;

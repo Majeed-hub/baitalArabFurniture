@@ -34,7 +34,7 @@ img {
 .navigation-menu ul {
     display: flex;
     padding: 0;
-   
+   margin: 0;
    
 }
 
