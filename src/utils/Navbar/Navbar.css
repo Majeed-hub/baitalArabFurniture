@@ -86,7 +86,7 @@ img {
              /* navigation menu is positioned to start 60px from the top of the document (which is directly below the navbar) */
              z-index: 100;
             position: absolute;
-            top: 60px;
+            top: 50px;
             left: 0;
              /* stacks the li tags vertically  */
             flex-direction: column;
