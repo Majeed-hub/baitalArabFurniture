@@ -1,7 +1,12 @@
 import React from 'react';
 import './Home.css';
 import Banner from '../../Assests/images/DesktopHeroSection.png';
-// import Banner1 from '../../Assests/images/DesktopHeroSection1.png';
+import Banner1 from '../../Assests/images/DesktopHeroSection1.png';
+import Sofa1 from '../../Assests/images/sofa1.png';
+import Bed1 from '../../Assests/images/bed.png';
+import Table1 from '../../Assests/images/table.png';
+import Cart from '../../components/Card';
+// import
 
 const Home = () => {
   return (
@@ -11,16 +16,16 @@ const Home = () => {
         className="carousel slide"
         data-bs-ride="carousel"
       >
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img src={Banner} className="d-block banner-img" alt="..." />
-            <div className="carousel-caption d-none d-md-block">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src={Banner} class="d-block banner-img" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
               <h5>HOUSTON PRIVATE APARTMENT INTERIOR</h5>
             </div>
           </div>
-          <div className="carousel-item">
-            <img src={Banner} className="d-block banner-img" alt="..." />
-            <div className="carousel-caption d-none d-md-block">
+          <div class="carousel-item">
+            <img src={Banner} class="d-block banner-img" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
               <h5>HOUSTON PRIVATE APARTMENT INTERIOR</h5>
             </div>
           </div>
@@ -37,8 +42,8 @@ const Home = () => {
           data-bs-target="#carouselExampleAutoplaying"
           data-bs-slide="prev"
         >
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Previous</span>
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
         </button>
         <button
           className="carousel-control-next"
@@ -46,9 +51,48 @@ const Home = () => {
           data-bs-target="#carouselExampleAutoplaying"
           data-bs-slide="next"
         >
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Next</span>
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
         </button>
+      </div>
+
+      <div className="productContainer">
+        <div className="productTitle">
+          <h2>Products</h2>
+        </div>
+        <div className="itemContainer">
+          <div className="itemTitle">
+            <h3>Sofa</h3>
+          </div>
+
+          <div className="itemCardContainer">
+            <Cart img={Sofa1} title={'Single Seater'} price={'500 aed'} />
+            <Cart img={Sofa1} title={'Single Seater'} price={'500 aed'} />
+            <Cart img={Sofa1} title={'Single Seater'} price={'500 aed'} />
+          </div>
+        </div>
+        <div className="itemContainer">
+          <div className="itemTitle">
+            <h3>Bed</h3>
+          </div>
+
+          <div className="itemCardContainer">
+            <Cart img={Bed1} title={'Master bed'} price={'500 aed'} />
+            <Cart img={Bed1} title={'Master bed'} price={'500 aed'} />
+            <Cart img={Bed1} title={'Master bed'} price={'500 aed'} />
+          </div>
+        </div>
+        <div className="itemContainer">
+          <div className="itemTitle">
+            <h3>Table</h3>
+          </div>
+
+          <div className="itemCardContainer">
+            <Cart img={Table1} title={'Dinning Table'} price={'500 aed'} />
+            <Cart img={Table1} title={'Dinning Table'} price={'500 aed'} />
+            <Cart img={Table1} title={'Dinning Table'} price={'500 aed'} />
+          </div>
+        </div>
       </div>
     </div>
   );
