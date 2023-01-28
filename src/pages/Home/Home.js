@@ -13,81 +13,87 @@ const Home = () => {
     <div>
       <div
         id="carouselExampleAutoplaying"
-        class="carousel slide"
+        className="carousel slide"
         data-bs-ride="carousel"
       >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src={Banner} class="d-block banner-img" alt="..." />
-            <div class="carousel-caption d-block d-md-block">
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img src={Banner} className="d-block banner-img" alt="..." />
+            <div className="carousel-caption d-block d-md-block">
               <h5>HOUSTON PRIVATE APARTMENT INTERIOR</h5>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src={Banner1} class="d-block banner-img" alt="..." />
-            <div class="carousel-caption d-block d-md-block">
+          <div className="carousel-item">
+            <img src={Banner1} className="d-block banner-img" alt="..." />
+            <div className="carousel-caption d-block d-md-block">
               <h5>HOUSTON PRIVATE APARTMENT INTERIOR</h5>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src={Banner} class="d-block banner-img" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
+          <div className="carousel-item">
+            <img src={Banner} className="d-block banner-img" alt="..." />
+            <div className="carousel-caption d-none d-md-block">
               <h5>HOUSTON PRIVATE APARTMENT INTERIOR</h5>
             </div>
           </div>
         </div>
         <button
-          class="carousel-control-prev"
+          className="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleAutoplaying"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next"
+          className="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleAutoplaying"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Next</span>
         </button>
       </div>
 
-      <div class="productContainer">
-        <div class="productTitle">
+      <div className="productContainer">
+        <div className="productTitle">
           <h2>Products</h2>
         </div>
-        <div class="itemContainer">
-          <div class="itemTitle">
+        <div className="itemContainer">
+          <div className="itemTitle">
             <h3>Sofa</h3>
           </div>
 
-          <div class="itemCardContainer">
+          <div className="itemCardContainer">
             <Cart img={Sofa1} title={'Single Seater'} price={'500 aed'} />
             <Cart img={Sofa1} title={'Single Seater'} price={'500 aed'} />
             <Cart img={Sofa1} title={'Single Seater'} price={'500 aed'} />
           </div>
         </div>
-        <div class="itemContainer">
-          <div class="itemTitle">
+        <div className="itemContainer">
+          <div className="itemTitle">
             <h3>Bed</h3>
           </div>
 
-          <div class="itemCardContainer">
+          <div className="itemCardContainer">
             <Cart img={Bed1} title={'Master bed'} price={'500 aed'} />
             <Cart img={Bed1} title={'Master bed'} price={'500 aed'} />
             <Cart img={Bed1} title={'Master bed'} price={'500 aed'} />
           </div>
         </div>
-        <div class="itemContainer">
-          <div class="itemTitle">
+        <div className="itemContainer">
+          <div className="itemTitle">
             <h3>Table</h3>
           </div>
 
-          <div class="itemCardContainer">
+          <div className="itemCardContainer">
             <Cart img={Table1} title={'Dinning Table'} price={'500 aed'} />
             <Cart img={Table1} title={'Dinning Table'} price={'500 aed'} />
             <Cart img={Table1} title={'Dinning Table'} price={'500 aed'} />
