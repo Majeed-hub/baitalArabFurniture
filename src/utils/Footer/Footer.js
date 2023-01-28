@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="column">
-            <h4
+            <h4 className="brand-name"
               style={{
                 color: "black",
                 textAlign: "center",
@@ -15,7 +15,7 @@ const Footer = () => {
             >
               baitalArabFurniture
             </h4>
-            <p className="description" style={{ fontSize: "10px" }}>
+            <p className="description" style={{ fontSize: "10px", }}>
               Adipisicing laborum aliqua ad aliquip ad. Dolore deserunt elit
               velit nulla officia nisi anim velit laboris. Eu ex laborum
               consequat ut cillum esse quis laborum cupidatat consequat
@@ -72,7 +72,7 @@ const Footer = () => {
               Location
             </h4>
             <div
-              class="mapouter"
+              className="mapouter"
               style={{
                 position: "relative",
                 textAlign: "right",
@@ -81,23 +81,25 @@ const Footer = () => {
               }}
             >
               <div
-                class="gmap_canvas"
+                className="gmap_canvas"
                 style={{
                   overflow: "hidden",
                   background: "none",
                   height: "232px",
                   width: "289px",
+                  borderRadius: "10px"
                 }}
               >
                 <iframe
                   width="289"
                   height="240"
+                  
                   id="gmap_canvas"
                   src="https://maps.google.com/maps?q=dubai&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                  frameborder="0"
+                  frameBorder="0"
                   scrolling="no"
-                  marginheight="0"
-                  marginwidth="0"
+                  marginHeight="0"
+                  marginWidth="0"
                 ></iframe>
                 <a href="https://www.whatismyip-address.com"></a>
                 <br />
@@ -117,9 +119,20 @@ const Footer = () => {
               >
                 Contact us
               </h4>
-              <input type="text" /> <br />
+              <input
+                type="text"
+                placeholder="Enter your name"
+                style={{ height: "35px", padding: "7px" }}
+              />
               <br />
-              <input type="text" /> <br/> <br/>
+              <br />
+              <input
+                type="text"
+                className="textField"
+                style={{ height: "90px", padding: "7px" }}
+                placeholder="Enter your query"
+              />{" "}
+              <br /> <br />
               <input type="submit" />
             </form>
           </div>
