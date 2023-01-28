@@ -34,7 +34,7 @@ img {
 .navigation-menu ul {
     display: flex;
     padding: 0;
-   margin: 0 ;
+   
    
 }
 
@@ -85,15 +85,15 @@ img {
   .navigation-menu ul {
     /* navigation menu is positioned to start 60px from the top of the document (which is directly below the navbar) */
     position: absolute;
-    top: 60px;
+    top: 50px;
     left: 0;
     /* stacks the li tags vertically  */
     flex-direction: column;
     /* makes menu span full height and width */
     width: 100%;
-    height: calc(100vh - 550px);
+    /* height: calc(100vh - 550px); */
     
-     /* height: (100% * 5); */
+     height: (100% * 5);
     background-color: white;
     border-top: 1px solid black;
   }
