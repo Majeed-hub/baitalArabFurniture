@@ -1,6 +1,7 @@
 import React from 'react';
 import './Blog.css';
 import cardPic from '../../Assests/images/table.png'
+import BlogCard from '../../components/BlogCard/BlogCard';
 
 const Blog = () => {
   return (
@@ -182,89 +183,11 @@ const Blog = () => {
           </div>
         </div>
       </div> */}
-      <div
-        class="card"
-        style={{
-          width: "18rem",
-          backgroundColor: "#FAF8F1",
-          height: "250px",
-          display: "inline-block",
-        }}
-      >
-        <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">
-            With supporting text below as a natural lead-in to additional
-            content.
-          </p>
-          <a href="#" class="btn btn-primary">
-            Go somewhere
-          </a>
-        </div>
-      </div>
-      <div
-        class="card"
-        style={{
-          width: "18rem",
-          backgroundColor: "#FAF8F1",
-          height: "250px",
-          display: "inline-block",
-          margin: "7px",
-        }}
-      >
-        <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">
-            With supporting text below as a natural lead-in to additional
-            content.
-          </p>
-          <a href="#" class="btn btn-primary">
-            Go somewhere
-          </a>
-        </div>
-      </div>
-      <div
-        class="card"
-        style={{
-          width: "18rem",
-          backgroundColor: "#FAF8F1",
-          height: "250px",
-          display: "inline-block",
-          margin: "7px",
-        }}
-      >
-        <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">
-            With supporting text below as a natural lead-in to additional
-            content.
-          </p>
-          <a href="#" class="btn btn-primary">
-            Go somewhere
-          </a>
-        </div>
-      </div>
-      <div
-        class="card"
-        style={{
-          width: "18rem",
-          backgroundColor: "#FAF8F1",
-          height: "250px",
-          display: "inline-block",
-          margin: "7px",
-        }}
-      >
-        <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">
-            With supporting text below as a natural lead-in to additional
-            content.
-          </p>
-          <a href="#" class="btn btn-primary">
-            Go somewhere
-          </a>
-        </div>
-      </div>
+
+      <BlogCard />
+      <BlogCard />
+      <BlogCard />
+      <BlogCard />
     </div>
   );
 };
