@@ -118,22 +118,22 @@ const Blog = () => {
           </div>
         </div>
         <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
+          <h2 class="accordion-header" id="headingFive">
             <button
               class="accordion-button collapsed"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#collapseThree"
+              data-bs-target="#collapseFive"
               aria-expanded="false"
-              aria-controls="collapseThree"
+              aria-controls="collapseFive"
             >
               Accordion Item #3
             </button>
           </h2>
           <div
-            id="collapseThree"
+            id="collapseFive"
             class="accordion-collapse collapse"
-            aria-labelledby="headingThree"
+            aria-labelledby="headingFive"
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body">
@@ -149,22 +149,22 @@ const Blog = () => {
           </div>
         </div>
         <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
+          <h2 class="accordion-header" id="headingFour">
             <button
               class="accordion-button collapsed"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#collapseThree"
+              data-bs-target="#collapseFour"
               aria-expanded="false"
-              aria-controls="collapseThree"
+              aria-controls="collapseFour"
             >
-              Accordion Item #3
+              Accordion Item #4
             </button>
           </h2>
           <div
-            id="collapseThree"
+            id="collapseFour"
             class="accordion-collapse collapse"
-            aria-labelledby="headingThree"
+            aria-labelledby="headingFour"
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body">

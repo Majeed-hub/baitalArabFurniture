@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=belleza&display=swap');
 .main-section{
     width: 70%;
     margin: auto;
@@ -9,4 +10,8 @@
     .main-section{
         width: 99%;
     }
+}
+.heading{
+    font-family: "Belleza";
+    margin: 15px;
 }
