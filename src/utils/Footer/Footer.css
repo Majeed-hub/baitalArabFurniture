@@ -64,9 +64,11 @@ body{
         }
         .box{
             width: 100%;
+            
         }
         .container{
             padding-top: 20px;
+        
         }
 } 
 
