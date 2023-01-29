@@ -12,6 +12,8 @@ const Footer = () => {
               style={{
                 color: "black",
                 textAlign: "center",
+                margin:"0",
+                padding:"7px"
               }}
             >
               baitalArabFurniture
@@ -93,7 +95,7 @@ const Footer = () => {
               style={{
                 position: "relative",
                 textAlign: "right",
-                height: "232px",
+                height: "292px",
                 width: "289px",
               }}
             >
@@ -102,7 +104,7 @@ const Footer = () => {
                 style={{
                   overflow: "hidden",
                   background: "none",
-                  height: "232px",
+                  height: "292px",
                   width: "289px",
                   borderRadius: "10px",
                 }}
