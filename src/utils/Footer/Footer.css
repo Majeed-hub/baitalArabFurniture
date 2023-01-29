@@ -20,7 +20,7 @@ body {
   justify-content: center;
   max-width: 1000px;
   margin: auto;
-  height: 850px;
+  height: 290px;
   /* padding: 20px; */
   /* max-height: 110vh; */
 }
@@ -30,7 +30,7 @@ body {
   background: #faf8f1;
   position: absolute;
   bottom: -1000;
-  width: 98%;
+  width: 100%;
   margin-top: 30px;
   overflow: hidden;
 }
@@ -60,6 +60,7 @@ body {
     width: 100%;
   }
   .container {
+    height: 850px;
     padding-top: 20px;
     margin-bottom: 30px;
   }
