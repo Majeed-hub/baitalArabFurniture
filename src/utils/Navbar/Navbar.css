@@ -1,15 +1,15 @@
 /* navbar.css */
 .navigation {
-    height: 50px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    position: relative;
-    padding: 0.5rem 0rem;
-    background-color: #FAF8F1;
-    color: black;
-    /* box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23); */
-    border-bottom: 1px solid gray;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.5rem 0rem;
+  background-color: #faf8f1;
+  color: black;
+  /* box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23); */
+  border-bottom: 1px solid gray;
 }
 img {
   width: 65px;
@@ -32,10 +32,9 @@ img {
 }
 
 .navigation-menu ul {
-    display: flex;
-    padding: 0;
-   margin: 0;
-   
+  display: flex;
+  padding: 0;
+  margin: 0;
 }
 
 .navigation-menu li {
@@ -50,17 +49,19 @@ img {
   display: block;
   width: 100%;
 }
+.navigation-menu li .navLinks {
+  /* default color of menu bar links */
+  color: black;
+}
 
 .hamburger {
   /* removes default border on button element */
-  border: 0;
+  border: none;
   height: 40px;
   width: 40px;
   padding: 0.5rem;
-  border-radius: 50%;
-  background-color: #28768b;
   cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
+  background-color: inherit;
   /* positions the icon to the right and center aligns it vertically */
   position: absolute;
   top: 50%;
@@ -69,56 +70,65 @@ img {
   display: none;
 }
 
-.hamburger:hover {
-  background-color: #16596c;
+.hamburger svg {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+}
+
+/* Actice class css */
+.active {
+  color: #f3af3b;
 }
 
 /* Mobile style */
 
 @media screen and (max-width: 768px) {
-    .hamburger {
-        display: block;
-    }
-        .navigation-menu ul {
-            display: none;
-        }
-        .navigation-menu ul {
-             /* navigation menu is positioned to start 60px from the top of the document (which is directly below the navbar) */
-             z-index: 100;
-            position: absolute;
-            top: 50px;
-            left: 0;
-             /* stacks the li tags vertically  */
-            flex-direction: column;
-             /* makes menu span full height and width */
-            width: 100%;
-            height: calc(45vh - 77px);
-            background-color: white;
-            border-top: 1px solid black;
-            
-        }
-    
-        .navigation-menu li {
-            /* centers link text and strips off margin */
-            text-align: center;
-            margin: 0;
-        }
-    
-        .navigation-menu li a {
-            color: black;
-             /* increases the surface area of the anchor tag to span the full width of the menu */
-            width: 100%;
-            padding: 1.5rem 0;
-        }
-    
-        .navigation-menu li:hover {
-            background-color: #eee;
-        }
-                .navigation-menu ul {
-                    /* previous styles */
-                    display: none;
-                }
-                                 .navigation-menu.expanded ul {
-                                     display: block;
-                                 }
+  .hamburger {
+    display: block;
+  }
+  .navigation-menu ul {
+    display: none;
+  }
+  .navigation-menu ul {
+    /* navigation menu is positioned to start 60px from the top of the document (which is directly below the navbar) */
+    z-index: 100;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    /* stacks the li tags vertically  */
+    flex-direction: column;
+    /* makes menu span full height and width */
+    width: 100%;
+    /* height: calc(45vh - 77px); */
+    height: 280px;
+    background-color: white;
+    border-top: 1px solid black;
+  }
+
+  .navigation-menu li {
+    /* centers link text and strips off margin */
+    text-align: center;
+    margin: 0;
+  }
+
+  .navigation-menu li a {
+    /* increases the surface area of the anchor tag to span the full width of the menu */
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+
+  .navigation-menu li:hover {
+    background-color: #eee;
+  }
+  .navigation-menu ul {
+    /* previous styles */
+    display: none;
+  }
+  .navigation-menu.expanded ul {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
 }

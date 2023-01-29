@@ -4,18 +4,17 @@
   /* object-fit: contain; */
   /* height: 100vh; */
 }
-@media screen and (max-width:640px)
-{
+@media screen and (max-width: 640px) {
   .banner-img {
-      width: 100%;
-      height: calc(60vh - 50px);
-      /* object-fit: contain; */
-      /* height: 100vh; */
-    }
+    width: 100%;
+    height: calc(60vh - 50px);
+    /* object-fit: contain; */
+    /* height: 100vh; */
+  }
 }
-.productContainer{
-width: 80%;
-margin: auto;
+.productContainer {
+  width: 87%;
+  margin: auto;
 }
 
 .productContainer .productTitle {
