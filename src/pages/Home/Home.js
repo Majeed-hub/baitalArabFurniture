@@ -1,14 +1,14 @@
 import React from 'react';
 import './Home.css';
 import Banner from '../../Assests/images/DesktopHeroSection.png';
-import Banner_2 from "../../Assests/images/LivingRoom.jpg";
-import Banner_3 from "../../Assests/images/Modern_Wardrobe.jpg";
+import Banner_2 from '../../Assests/images/LivingRoom.jpg';
+import Banner_3 from '../../Assests/images/Modern_Wardrobe.jpg';
 
 // import Banner1 from '../../Assests/images/DesktopHeroSection1.png';
 import Sofa1 from '../../Assests/images/sofa1.png';
 import Bed1 from '../../Assests/images/bed.png';
 import Table1 from '../../Assests/images/table.png';
-import Cart from '../../components/Card';
+import Cart from '../../components/HomeCard/Card';
 
 const Home = () => {
   return (
