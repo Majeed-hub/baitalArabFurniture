@@ -1,10 +1,12 @@
 import React from 'react';
 import './Blog.css';
+import cardPic from '../../Assests/images/table.png'
 
 const Blog = () => {
   return (
     <div className="main-section">
       <h2 className="heading">Blogs</h2>
+      {/*
       <div
         class="accordion"
         // style={{ width: "70%", margin: "auto" }}
@@ -178,6 +180,89 @@ const Blog = () => {
               though the transition does limit overflow.
             </div>
           </div>
+        </div>
+      </div> */}
+      <div
+        class="card"
+        style={{
+          width: "18rem",
+          backgroundColor: "#FAF8F1",
+          height: "250px",
+          display: "inline-block",
+        }}
+      >
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">
+            With supporting text below as a natural lead-in to additional
+            content.
+          </p>
+          <a href="#" class="btn btn-primary">
+            Go somewhere
+          </a>
+        </div>
+      </div>
+      <div
+        class="card"
+        style={{
+          width: "18rem",
+          backgroundColor: "#FAF8F1",
+          height: "250px",
+          display: "inline-block",
+          margin: "7px",
+        }}
+      >
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">
+            With supporting text below as a natural lead-in to additional
+            content.
+          </p>
+          <a href="#" class="btn btn-primary">
+            Go somewhere
+          </a>
+        </div>
+      </div>
+      <div
+        class="card"
+        style={{
+          width: "18rem",
+          backgroundColor: "#FAF8F1",
+          height: "250px",
+          display: "inline-block",
+          margin: "7px",
+        }}
+      >
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">
+            With supporting text below as a natural lead-in to additional
+            content.
+          </p>
+          <a href="#" class="btn btn-primary">
+            Go somewhere
+          </a>
+        </div>
+      </div>
+      <div
+        class="card"
+        style={{
+          width: "18rem",
+          backgroundColor: "#FAF8F1",
+          height: "250px",
+          display: "inline-block",
+          margin: "7px",
+        }}
+      >
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">
+            With supporting text below as a natural lead-in to additional
+            content.
+          </p>
+          <a href="#" class="btn btn-primary">
+            Go somewhere
+          </a>
         </div>
       </div>
     </div>
