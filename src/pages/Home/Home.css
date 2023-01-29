@@ -12,6 +12,12 @@
     /* height: 100vh; */
   }
 }
+
+.homePage {
+  width: 100vw;
+  margin: auto;
+}
+
 .productContainer {
   width: 87%;
   margin: auto;

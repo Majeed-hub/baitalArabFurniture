@@ -12,7 +12,7 @@ import Cart from '../../components/HomeCard/Card';
 
 const Home = () => {
   return (
-    <div>
+    <div className="homePage">
       <div
         id="carouselExampleAutoplaying"
         className="carousel slide"
@@ -65,10 +65,10 @@ const Home = () => {
       </div>
 
       <div className="productContainer">
-        <div className="productTitle">
-          <h2>Products</h2>
-        </div>
         <div className="itemContainer">
+          <div className="productTitle">
+            <h2>Products</h2>
+          </div>
           <div className="itemTitle">
             <h3>Sofa</h3>
           </div>
