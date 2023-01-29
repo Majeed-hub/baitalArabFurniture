@@ -31,9 +31,9 @@ body{
         background: #FAF8F1;
         position: absolute;
         bottom: -1000;
-        width: 98%;
+        width: 100%;
         margin-top: 30px;
-        overflow: hidden;
+        /* overflow: hidden; */
     
       
 }
