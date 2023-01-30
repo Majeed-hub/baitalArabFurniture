@@ -11,6 +11,10 @@
   height: 340px;
 }
 
+.cardTitle h5{
+  margin: 10px 0 5px 0 ;
+}
+
 .cardTitle p {
   width: 100%;
   font-size: 40px;

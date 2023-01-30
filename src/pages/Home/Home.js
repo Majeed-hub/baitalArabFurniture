@@ -1,14 +1,14 @@
-import React from 'react';
-import './Home.css';
-import Banner from '../../Assests/images/DesktopHeroSection.png';
-import Banner_2 from '../../Assests/images/LivingRoom.jpg';
-import Banner_3 from '../../Assests/images/Modern_Wardrobe.jpg';
+import React from "react";
+import "./Home.css";
+import Banner from "../../Assests/images/DesktopHeroSection.png";
+import Banner_2 from "../../Assests/images/LivingRoom.jpg";
+import Banner_3 from "../../Assests/images/Modern_Wardrobe.jpg";
 
 // import Banner1 from '../../Assests/images/DesktopHeroSection1.png';
-import Sofa1 from '../../Assests/images/sofa1.png';
-import Bed1 from '../../Assests/images/bed.png';
-import Table1 from '../../Assests/images/table.png';
-import Cart from '../../components/HomeCard/Card';
+import Sofa1 from "../../Assests/images/sofa1.png";
+import Bed1 from "../../Assests/images/bed.png";
+import Table1 from "../../Assests/images/table.png";
+import Cart from "../../components/HomeCard/Card";
 
 const Home = () => {
   return (
@@ -74,9 +74,9 @@ const Home = () => {
           </div>
 
           <div className="itemCardContainer">
-            <Cart img={Sofa1} title={'Single Seater'} price={'500 aed'} />
-            <Cart img={Sofa1} title={'Single Seater'} price={'500 aed'} />
-            <Cart img={Sofa1} title={'Single Seater'} price={'500 aed'} />
+            <Cart img={Sofa1} title={"Single Seater"} price={"500 aed"} />
+            <Cart img={Sofa1} title={"Single Seater"} price={"500 aed"} />
+            <Cart img={Sofa1} title={"Single Seater"} price={"500 aed"} />
           </div>
         </div>
         <div className="itemContainer">
@@ -85,9 +85,9 @@ const Home = () => {
           </div>
 
           <div className="itemCardContainer">
-            <Cart img={Bed1} title={'Master bed'} price={'500 aed'} />
-            <Cart img={Bed1} title={'Master bed'} price={'500 aed'} />
-            <Cart img={Bed1} title={'Master bed'} price={'500 aed'} />
+            <Cart img={Bed1} title={"Master bed"} price={"500 aed"} />
+            <Cart img={Bed1} title={"Master bed"} price={"500 aed"} />
+            <Cart img={Bed1} title={"Master bed"} price={"500 aed"} />
           </div>
         </div>
         <div className="itemContainer">
@@ -96,9 +96,9 @@ const Home = () => {
           </div>
 
           <div className="itemCardContainer">
-            <Cart img={Table1} title={'Dinning Table'} price={'500 aed'} />
-            <Cart img={Table1} title={'Dinning Table'} price={'500 aed'} />
-            <Cart img={Table1} title={'Dinning Table'} price={'500 aed'} />
+            <Cart img={Table1} title={"Dinning Table"} price={"500 aed"} />
+            <Cart img={Table1} title={"Dinning Table"} price={"500 aed"} />
+            <Cart img={Table1} title={"Dinning Table"} price={"500 aed"} />
           </div>
         </div>
       </div>
