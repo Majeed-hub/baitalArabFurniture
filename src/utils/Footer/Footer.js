@@ -1,5 +1,5 @@
-import React from "react";
-import "./Footer.css";
+import React from 'react';
+import './Footer.css';
 
 const Footer = () => {
   return (
@@ -10,15 +10,18 @@ const Footer = () => {
             <h4
               className="brand-name"
               style={{
-                color: "black",
-                textAlign: "center",
-                margin:"0",
-                padding:"7px"
+                color: 'black',
+                textAlign: 'center',
+                margin: '0',
+                padding: '7px',
               }}
             >
               baitalArabFurniture
             </h4>
-            <p className="description" style={{ fontSize: "10px", padding:"4px" }}>
+            <p
+              className="description"
+              style={{ fontSize: '10px', padding: '4px' }}
+            >
               Adipisicing laborum aliqua ad aliquip ad. Dolore deserunt elit
               velit nulla officia nisi anim velit laboris. Eu ex laborum
               consequat ut cillum esse quis laborum cupidatat consequat
@@ -26,24 +29,24 @@ const Footer = () => {
             </p>
             <div
               className="social-links"
-              style={{ display: "flex", justifyContent: "space-around" }}
+              style={{ display: 'flex', justifyContent: 'space-around' }}
             >
               <a
-                href=""
+                href="https://www.instagram.com/"
                 className="footerlink"
-                style={{ textDecoration: "none", fontFamily: "Pacifico" }}
+                style={{ textDecoration: 'none', fontFamily: 'Pacifico' }}
               >
                 instagram
               </a>
               <a
-                href=""
-                style={{ textDecoration: "none", fontFamily: "Pacifico" }}
+                href="https://www.facebook.com/"
+                style={{ textDecoration: 'none', fontFamily: 'Pacifico' }}
               >
                 facebook
               </a>
               <a
-                href=""
-                style={{ textDecoration: "none", fontFamily: "Pacifico" }}
+                href="https://www.linkedin.com/"
+                style={{ textDecoration: 'none', fontFamily: 'Pacifico' }}
               >
                 linkedIn
               </a>
@@ -70,10 +73,17 @@ const Footer = () => {
             </a> */}
             </div>
             <div>
-              <h3 className="heading" style={{ textAlign: "center", fontFamily:'Belleza', margin:"20px"}}>
+              <h3
+                className="heading"
+                style={{
+                  textAlign: 'center',
+                  fontFamily: 'Belleza',
+                  margin: '20px',
+                }}
+              >
                 address
               </h3>
-              <p className="address" style={{ textAlign: "center" }}>
+              <p className="address" style={{ textAlign: 'center' }}>
                 xyz street, opp abc hotel,
                 <br /> dubai uae
               </p>
@@ -84,8 +94,8 @@ const Footer = () => {
             <h4
               className="heading"
               style={{
-                color: "black",
-                textAlign: "center",
+                color: 'black',
+                textAlign: 'center',
               }}
             >
               Location
@@ -93,20 +103,20 @@ const Footer = () => {
             <div
               className="mapouter"
               style={{
-                position: "relative",
-                textAlign: "right",
-                height: "292px",
-                width: "289px",
+                position: 'relative',
+                textAlign: 'right',
+                height: '292px',
+                width: '289px',
               }}
             >
               <div
                 className="gmap_canvas"
                 style={{
-                  overflow: "hidden",
-                  background: "none",
-                  height: "292px",
-                  width: "289px",
-                  borderRadius: "10px",
+                  overflow: 'hidden',
+                  background: 'none',
+                  height: '292px',
+                  width: '289px',
+                  borderRadius: '10px',
                 }}
               >
                 <iframe
@@ -118,6 +128,7 @@ const Footer = () => {
                   scrolling="no"
                   marginHeight="0"
                   marginWidth="0"
+                  title="map"
                 ></iframe>
                 <a href="https://www.whatismyip-address.com"></a>
                 <br />
@@ -131,8 +142,8 @@ const Footer = () => {
               <h4
                 className="heading"
                 style={{
-                  color: "black",
-                  textAlign: "center",
+                  color: 'black',
+                  textAlign: 'center',
                 }}
               >
                 Contact us
@@ -140,14 +151,14 @@ const Footer = () => {
               <input
                 type="text"
                 placeholder="Enter your name"
-                style={{ height: "35px", padding: "10px" }}
+                style={{ height: '35px', padding: '10px' }}
               />
               <br />
               <br />
               <input
                 type="text"
                 className="textField"
-                style={{ height: "90px", padding: "10px" }}
+                style={{ height: '90px', padding: '10px' }}
                 placeholder="Enter your query"
               />
               <br /> <br />

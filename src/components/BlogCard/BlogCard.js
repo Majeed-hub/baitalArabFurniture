@@ -1,17 +1,17 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import "./BlogCard.css";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './BlogCard.css';
 
 export const BlogCard = ({ id, title, content }) => {
   return (
     <div
       class="card"
       style={{
-        width: "18rem",
-        backgroundColor: "#FAF8F1",
-        height: "250px",
-        display: "inline-block",
-        margin: "7px",
+        width: '18rem',
+        backgroundColor: '#FAF8F1',
+        height: '250px',
+        display: 'inline-block',
+        margin: '7px',
       }}
     >
       <div class="card-body">

@@ -76,6 +76,12 @@
   opacity: 1;
 }
 
+@media screen and (min-width: 1345px) {
+  .portfolioCardWrapper {
+    justify-content: space-between;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .portfolioCardWrapper .portfolioCard {
     width: 330px;

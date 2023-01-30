@@ -1,7 +1,16 @@
-.btnViewMore{
-    background-color:#f3af3b;
-    color: #000;
+.card-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.card-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.btnViewMore {
+  background-color: #f3af3b;
+  color: #000;
 }
 .btnViewMore:hover {
-    border: 1px solid #f3af3b;
+  border: 1px solid #f3af3b;
 }

@@ -25,16 +25,14 @@ body {
   /* max-height: 110vh; */
 }
 
-.box{
-    padding: 40px 10px;
-        background: #FAF8F1;
-        position: absolute;
-        bottom: -1000;
-        width: 98%;
-        margin-top: 30px;
-        overflow: hidden;
-    
-      
+.box {
+  padding: 40px 10px;
+  background: #faf8f1;
+  position: absolute;
+  bottom: -1000;
+  width: 98%;
+  margin-top: 30px;
+  overflow: hidden;
 }
 
 .column {
@@ -111,8 +109,8 @@ input .textField {
 }
 input[type='submit'] {
   border: none;
-  background-color: yellow;
-  color: rgb(49, 48, 48);
+  background-color: #f3af3b;
+  color: black;
   padding: 5px 9px;
   border-radius: 7px;
 }
