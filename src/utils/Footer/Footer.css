@@ -25,14 +25,16 @@ body {
   /* max-height: 110vh; */
 }
 
-.box {
-  padding: 40px 10px;
-  background: #faf8f1;
-  position: absolute;
-  bottom: -1000;
-  width: 100%;
-  margin-top: 30px;
-  overflow: hidden;
+.box{
+    padding: 40px 10px;
+        background: #FAF8F1;
+        position: absolute;
+        bottom: -1000;
+        width: 98%;
+        margin-top: 30px;
+        overflow: hidden;
+    
+      
 }
 
 .column {
