@@ -3,11 +3,11 @@ import './AboutUs.css';
 import AboutUsBanner from '../../Assests/images/LivingRoom.jpg';
 import AboutUsCard from '../../components/AboutUsCard/AboutUsCard';
 import ProfilePhoto from '../../Assests/images/sofa1.png';
-import Leadership from '../../Assests/images/leadership.png';
-import Consultation from '../../Assests/images/consultation.svg';
-import Idea from '../../Assests/images/idea.svg';
-import MaterialSelection from '../../Assests/images/choice.svg';
-import TestimonialCard from '../../components/TestimonialCard/TestimonialCard';
+// import Leadership from '../../Assests/images/leadership.png';
+// import Consultation from '../../Assests/images/consultation.svg';
+// import Idea from '../../Assests/images/idea.svg';
+// import MaterialSelection from '../../Assests/images/choice.svg';
+// import TestimonialCard from '../../components/TestimonialCard/TestimonialCard';
 
 const AboutUs = () => {
   return (
@@ -77,7 +77,7 @@ const AboutUs = () => {
           />
         </div>
       </div>
-      <div className="aboutUsTestimonial">
+      {/* <div className="aboutUsTestimonial">
         <div className="aboutUsTitle">
           <h2>Get To Know Us</h2>
         </div>
@@ -133,7 +133,7 @@ const AboutUs = () => {
             desc={'Selection of material to be used.'}
           />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
