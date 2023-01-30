@@ -17,7 +17,7 @@ const Navbar = () => {
         </span>
 
         <Link to="/" className="brand-name">
-          baitalArab
+          BaitalArab
         </Link>
 
         <button

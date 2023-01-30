@@ -17,8 +17,8 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  max-width: 1000px;
+  /* justify-content: space-around; */
+  max-width: 1250px;
   margin: auto;
   height: 290px;
   /* padding: 20px; */
@@ -30,7 +30,7 @@ body {
   background: #faf8f1;
   position: absolute;
   bottom: -1000;
-  width: 98%;
+  width: 100%;
   margin-top: 30px;
   overflow: hidden;
 }
@@ -44,10 +44,11 @@ body {
 }
 
 .row {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 10px;
+  display: flex;
+  /* grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 10px; */
   justify-content: space-around;
+  
 }
 @media (max-width: 1000px) {
   .row {
@@ -111,6 +112,7 @@ input[type='submit'] {
   border: none;
   background-color: #f3af3b;
   color: black;
+  font-weight: 400;
   padding: 5px 9px;
   border-radius: 7px;
 }
