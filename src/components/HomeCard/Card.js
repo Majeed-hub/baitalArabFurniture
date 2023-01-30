@@ -13,9 +13,9 @@ const Card = ({ img, title, price }) => {
       <div className="cardTitle">
         <h5>{title}</h5>
       </div>
-      <div className="cardPrice">
+      {/* <div className="cardPrice">
         <span>{price}</span>
-      </div>
+      </div> */}
     </div>
   );
 };

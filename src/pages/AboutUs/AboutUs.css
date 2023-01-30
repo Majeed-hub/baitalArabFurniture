@@ -64,6 +64,10 @@
     width: 75%;
     margin: auto;
   }
+  .aboutUsContainer .aboutUsTitle h2 {
+    font-size: 43px;
+  }
+
   .aboutUsImage img {
     height: 170px;
   }
