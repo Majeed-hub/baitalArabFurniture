@@ -214,7 +214,7 @@ const Home = () => {
             />
           </div>
         </div>
-        <div className="blog-section">
+        <div className="blog-section" style={{margin:"0"}}>
           <div className="heading">
             <h2>Blogs</h2>
           </div>

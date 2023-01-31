@@ -55,7 +55,7 @@
 
 @media screen and (max-width: 520px) {
   .blog-section {
-    width: 75%;
+    width: 80%;
     margin: auto;
   }
   .BlogCardWrapper {
