@@ -61,9 +61,15 @@ body {
     width: 100%;
   }
   .container {
-    height: 850px;
+    height: 600px;
     padding-top: 20px;
     margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 620px) {
+  .container {
+      height: 920px;
   }
 }
 
