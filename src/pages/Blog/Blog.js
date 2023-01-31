@@ -11,7 +11,7 @@ import {
 const Blog = () => {
   return (
     <>
-      <div className="main-section">
+      <div className="blog-section">
         <div className="heading">
           <h2>Blogs</h2>
         </div>

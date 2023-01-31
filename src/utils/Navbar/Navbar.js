@@ -1,10 +1,10 @@
-import React from 'react';
-import { useState } from 'react';
-import './Navbar.css';
-import { Link, NavLink } from 'react-router-dom';
-import logo from '../../Assests/images/logo.png';
-import Menu from '../../Assests/images/menu.png';
-import Close from '../../Assests/images/close.png';
+import React from "react";
+import { useState } from "react";
+import "./Navbar.css";
+import { Link, NavLink } from "react-router-dom";
+import logo from "../../Assests/images/logo.png";
+import Menu from "../../Assests/images/menu.png";
+import Close from "../../Assests/images/close.png";
 
 const Navbar = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -12,11 +12,10 @@ const Navbar = () => {
   return (
     <>
       <nav className="navigation">
-        <span className="logo">
-          <img src={logo} alt="logo" />
-        </span>
-
         <Link to="/" className="brand-name">
+          <span className="logo">
+            <img src={logo} alt="logo" />
+          </span>
           BaitalArab
         </Link>
 
@@ -34,7 +33,7 @@ const Navbar = () => {
         </button>
         <div
           className={
-            isNavExpanded ? 'navigation-menu expanded' : 'navigation-menu'
+            isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
           }
         >
           <ul>
@@ -44,7 +43,7 @@ const Navbar = () => {
                   setIsNavExpanded(!isNavExpanded);
                 }}
                 to="/"
-                className={({ isActive }) => (isActive ? 'active' : 'navLinks')}
+                className={({ isActive }) => (isActive ? "active" : "navLinks")}
               >
                 Home
               </NavLink>
@@ -57,7 +56,7 @@ const Navbar = () => {
                 onClick={() => {
                   setIsNavExpanded(!isNavExpanded);
                 }}
-                className={({ isActive }) => (isActive ? 'active' : 'navLinks')}
+                className={({ isActive }) => (isActive ? "active" : "navLinks")}
               >
                 Product
               </NavLink>
@@ -69,7 +68,7 @@ const Navbar = () => {
                 onClick={() => {
                   setIsNavExpanded(!isNavExpanded);
                 }}
-                className={({ isActive }) => (isActive ? 'active' : 'navLinks')}
+                className={({ isActive }) => (isActive ? "active" : "navLinks")}
               >
                 About
               </NavLink>
@@ -81,12 +80,18 @@ const Navbar = () => {
                 onClick={() => {
                   setIsNavExpanded(!isNavExpanded);
                 }}
-                className={({ isActive }) => (isActive ? 'active' : 'navLinks')}
+                className={({ isActive }) => (isActive ? "active" : "navLinks")}
               >
                 Blogs
               </NavLink>
             </li>
           </ul>
+        </div>
+
+        <div className="contactBtn">
+          <a className="btn btnViewMore contactUsBtn" href="#footer">
+            Contact Us
+          </a>
         </div>
       </nav>
     </>

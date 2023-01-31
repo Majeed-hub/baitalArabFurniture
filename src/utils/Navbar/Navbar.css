@@ -4,8 +4,9 @@
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   position: relative;
-  padding: 0.5rem 0rem;
+  padding: 0.5rem 4.3rem;
   background-color: #faf8f1;
   color: black;
   /* box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23); */
@@ -22,13 +23,13 @@ img {
   text-decoration: none;
   color: black;
   font-size: 1.4rem;
-  margin-left: 0.2rem;
+  /* margin-left: 2rem; */
   font-family: 'Nova Slim';
 }
 
 .navigation-menu {
-  margin-left: auto;
-  margin-right: 15px;
+  margin: auto;
+  /* margin-right: 15px; */
 }
 
 .navigation-menu ul {
@@ -88,6 +89,12 @@ img {
 @media screen and (max-width: 768px) {
   .hamburger {
     display: block;
+  }
+  .navigation{
+  padding: 0.5rem 0rem;
+  }
+  .contactUsBtn{
+    display: none;
   }
   .navigation-menu ul {
     display: none;

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=belleza&display=swap');
-.main-section {
+.blog-section {
   width: 80%;
   margin: auto;
   min-height: 70vh;
@@ -11,12 +11,12 @@
   flex-wrap: wrap;
 }
 
-.main-section .heading {
+.blog-section .heading {
   position: relative;
   margin: 10px 0 25px 0px;
 }
 
-.main-section .heading h2 {
+.blog-section .heading h2 {
   margin-bottom: 0;
   font-family: 'Belleza', sans-serif;
   font-size: 45px;
@@ -24,7 +24,7 @@
 }
 
 /* Two lines below portfolio start*/
-.main-section .heading h2::before {
+.blog-section .heading h2::before {
   content: '';
   height: 3px;
   width: 95px;
@@ -34,7 +34,7 @@
   left: 0;
 }
 
-.main-section .heading h2::after {
+.blog-section .heading h2::after {
   content: '';
   height: 3px;
   width: 70px;
@@ -48,13 +48,13 @@
 /* Two lines below portfolio end*/
 
 @media screen and (min-width: 1345px) {
-  .main-section {
+  .blog-section {
     width: 90%;
   }
 }
 
 @media screen and (max-width: 520px) {
-  .main-section {
+  .blog-section {
     width: 75%;
     margin: auto;
   }

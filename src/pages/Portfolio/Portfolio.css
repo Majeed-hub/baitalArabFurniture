@@ -82,6 +82,11 @@
   }
 }
 
+@media screen and (max-width: 894px) {
+  .portfolioCardWrapper .portfolioCard {
+     margin: auto;
+  }
+}
 @media screen and (max-width: 768px) {
   .portfolioCardWrapper .portfolioCard {
     width: 330px;
