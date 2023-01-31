@@ -1,6 +1,10 @@
 import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from 'react-toastify';
+
 import { Link } from 'react-router-dom';
+
 import './Footer.css';
 
 const Footer = () => {
@@ -33,12 +37,32 @@ const Footer = () => {
         )
         .then(
           (result) => {
-            console.log(result);
-            alert('Success!' + result.status);
+            // console.log(result);
+            // alert('Success!' + result.status);
+            toast.success('Email Send Successfully', {
+              position: 'top-center',
+              autoClose: 4000,
+              hideProgressBar: false,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+              progress: undefined,
+              theme: 'colored',
+            });
           },
           (error) => {
-            alert('Failed!' + error.status);
-            console.log('FAILED...', error);
+            toast.error('Failed, Try again', {
+              position: 'top-center',
+              autoClose: 2000,
+              hideProgressBar: false,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+              progress: undefined,
+              theme: 'colored',
+            });
+            // alert('Failed!' + error.status);
+            // console.log('FAILED...', error);
           }
         );
     }
@@ -67,7 +91,7 @@ const Footer = () => {
                 padding: '4px',
                 fontFamily: 'Roboto,sans-serif',
                 fontWeight: '300',
-                textAlign:"center"
+                textAlign: 'center',
               }}
             >
               Adipisicing laborum aliqua ad aliquip ad. Dolore deserunt elit
@@ -250,6 +274,18 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <ToastContainer
+        position="top-center"
+        autoClose={2000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="colored"
+      />
     </div>
   );
 };
