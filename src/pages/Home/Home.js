@@ -246,7 +246,7 @@ const Home = () => {
           <h2>About Us</h2>
         </div>
         <div className="aboutUsDescription">
-          <p style={{textAlign:"center"}}>
+          <p style={{textAlign:"center", fontSize:"25px"}}>
             Furniture has been an integral part of human life for a very long
             time, and one cannot simply imagine his/her life without its
             presence. It needs to be a memorable and enjoyable experience and
