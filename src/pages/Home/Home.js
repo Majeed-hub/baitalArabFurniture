@@ -214,8 +214,9 @@ const Home = () => {
             />
           </div>
         </div>
-        <div className="blog-section" style={{margin:"0"}}>
-          <div className="heading">
+      </div>
+        <div className="blog-section">
+          <div className="heading productTitle" style={{marginLeft:"40px"}}>
             <h2>Blogs</h2>
           </div>
           <div className="BlogCardWrapper">
@@ -240,6 +241,7 @@ const Home = () => {
             />
           </div>
         </div>
+      <div className="aboutUsContainer">
         <div className="aboutUsTitle">
           <h2>About Us</h2>
         </div>

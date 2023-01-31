@@ -7,12 +7,15 @@ export const BlogCard = ({ id, title, content }) => {
     <div
       class="card"
       style={{
+        boxSizing:"border-box",
         width: '20rem',
         backgroundColor: '#FAF8F1',
         height: '290px',
         display: 'inline-block',
         margin: '7px',
+        padding:"15px"
       }}
+      className="blogC"
     >
       <div class="card-body">
         <h5 class="card-title">{title}</h5>
