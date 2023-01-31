@@ -68,12 +68,15 @@
 .itemCardContainer {
   display: flex;
   flex-wrap: wrap;
+  
   /* justify-content: space-evenly; */
 }
 
 @media screen and (min-width: 1345px) {
   .itemCardContainer {
     justify-content: space-between;
+    height: 75vh;
+    align-items: center;
   }
 }
 
