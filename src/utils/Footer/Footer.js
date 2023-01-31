@@ -1,8 +1,49 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import { Link } from 'react-router-dom';
 import './Footer.css';
 
 const Footer = () => {
+  // const form = useRef();
+  const form = useRef();
+
+  const [name, setName] = useState();
+  const [email, setEmail] = useState();
+  const [message, setMessage] = useState();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    // const name = document.getElementById('fullname').value;
+    // const email = document.getElementById('email_id').value;
+    // const message = document.getElementById('message').value;
+    // var params = {
+    //   from_name: name,
+    //   email_id: email,
+    //   message: message,
+    // };
+    if (name === '' || email === '' || message === '') {
+      alert('Please fill all the fields');
+    } else {
+      emailjs
+        .sendForm(
+          process.env.REACT_APP_YOUR_SERVICE_ID,
+          process.env.REACT_APP_YOUR_TEMPLATE_ID,
+          form.current,
+          process.env.REACT_APP_YOUR_PUBLIC_KEY
+        )
+        .then(
+          (result) => {
+            console.log(result);
+            alert('Success!' + result.status);
+          },
+          (error) => {
+            alert('Failed!' + error.status);
+            console.log('FAILED...', error);
+          }
+        );
+    }
+  };
+
   return (
     <div className="box" id="footer">
       <div className="container">
@@ -144,31 +185,66 @@ const Footer = () => {
             </div>
           </div>
           <div className="column">
-            <form>
-              <h4
-                className="heading"
-                style={{
-                  color: 'black',
-                  textAlign: 'center',
-                }}
-              >
-                Contact us
-              </h4>
-              <input
-                type="text"
-                placeholder="Enter your name"
-                style={{ height: '35px', padding: '10px' }}
-              />
-              <br />
-              <br />
-              <input
-                type="text"
-                className="textField"
-                style={{ height: '90px', padding: '10px' }}
-                placeholder="Enter your query"
-              />
-              <br /> <br />
-              <input type="submit" />
+            <form ref={form} onSubmit={sendEmail}>
+              <h2 className="formHeading">Contact Us</h2>
+              <div class="row">
+                <div class="contact-form padd-15">
+                  <div class="row mb-2">
+                    <div class="form-item col-12 padd-15">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="form-control inputField"
+                          placeholder="Name"
+                          id="fullname"
+                          name="from_name"
+                          value={name}
+                          onChange={(e) => setName(e.target.value)}
+                          required
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mb-2">
+                    <div class="form-item col-12 padd-15">
+                      <div class="form-group">
+                        <input
+                          type="email"
+                          class="form-control inputField"
+                          placeholder="Email"
+                          id="email_id"
+                          value={email}
+                          name="email_id"
+                          onChange={(e) => setEmail(e.target.value)}
+                          required
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <div class="form-item col-12 padd-15">
+                      <div class="form-group">
+                        <textarea
+                          id="message"
+                          name="message"
+                          class="form-control textField"
+                          placeholder="Message"
+                          value={message}
+                          onChange={(e) => setMessage(e.target.value)}
+                          required
+                        ></textarea>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mb-2">
+                    <div class="form-item col-12 padd-15">
+                      <button type="submit" class="btn formSubmitBtn">
+                        Send Message
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </form>
           </div>
         </div>
