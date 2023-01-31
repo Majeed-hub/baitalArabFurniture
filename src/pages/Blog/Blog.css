@@ -13,7 +13,7 @@
 
 .blog-section .heading {
   position: relative;
-  margin: 10px 0 25px 0px;
+  margin: 10px 0 25px 19px;
 }
 
 .blog-section .heading h2 {
@@ -63,8 +63,9 @@
     align-items: center;
     flex-direction: column;
   }
+
 }
 .heading {
   font-family: 'Belleza';
-  margin: 15px;
+  margin: 20px;
 }

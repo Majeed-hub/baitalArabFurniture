@@ -67,6 +67,7 @@ const Footer = () => {
                 padding: '4px',
                 fontFamily: 'Roboto,sans-serif',
                 fontWeight: '300',
+                textAlign:"center"
               }}
             >
               Adipisicing laborum aliqua ad aliquip ad. Dolore deserunt elit
