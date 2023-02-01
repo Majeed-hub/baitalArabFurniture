@@ -25,7 +25,7 @@ import BlogCard from '../../components/BlogCard/BlogCard';
 const Home = () => {
   return (
     <div>
-      <header>
+      <section>
         <div
           id="carouselExampleAutoplaying"
           className="carousel slide"
@@ -77,7 +77,7 @@ const Home = () => {
             <span className="visually-hidden">Next</span>
           </button>
         </div>
-      </header>
+      </section>
 
       <section className="productContainer">
         <div className="itemContainer">
