@@ -11,9 +11,9 @@ import ProfilePhoto from '../../Assests/images/sofa1.png';
 
 const AboutUs = () => {
   return (
-    <div className="aboutUsContainer">
+    <section className="aboutUsContainer">
       <div className="aboutUsTitle">
-        <h2>About Us</h2>
+        <h1>About Us</h1>
       </div>
       <div className="aboutUsImage">
         <img src={AboutUsBanner} alt="" />
@@ -57,7 +57,7 @@ const AboutUs = () => {
       </div>
       <div className="aboutUsOurTeam">
         <div className="aboutUsTitle">
-          <h2>Our Team</h2>
+          <h1>Our Team</h1>
         </div>
         <div className="aboutUsCardWrapper">
           <AboutUsCard
@@ -79,7 +79,7 @@ const AboutUs = () => {
       </div>
       {/* <div className="aboutUsTestimonial">
         <div className="aboutUsTitle">
-          <h2>Get To Know Us</h2>
+          <h1>Get To Know Us</h1>
         </div>
         <div className="aboutUsCardWrapper">
           <TestimonialCard
@@ -114,7 +114,7 @@ const AboutUs = () => {
       </div>
       <div className="aboutUsOurServices">
         <div className="aboutUsTitle">
-          <h2>Our Services</h2>
+          <h1>Our Services</h1>
         </div>
         <div className="aboutUsCardWrapper">
           <AboutUsCard
@@ -134,7 +134,7 @@ const AboutUs = () => {
           />
         </div>
       </div> */}
-    </div>
+    </section>
   );
 };
 

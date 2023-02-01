@@ -69,7 +69,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="box" id="footer">
+    <footer className="box" id="footer">
       <div className="container">
         <div className="row">
           <div className="column">
@@ -286,7 +286,7 @@ const Footer = () => {
         pauseOnHover
         theme="colored"
       />
-    </div>
+    </footer>
   );
 };
 export default Footer;

@@ -7,14 +7,14 @@
   position: relative;
   margin: 10px 0 25px 0px;
 }
-.portfolioContainer .portfolioTitle h2 {
+.portfolioContainer .portfolioTitle h1 {
   margin-bottom: 0;
   font-family: 'Belleza', sans-serif;
   font-size: 45px;
 }
 
 /* Two lines below portfolio start*/
-.portfolioContainer .portfolioTitle h2::before {
+.portfolioContainer .portfolioTitle h1::before {
   content: '';
   height: 3px;
   width: 130px;
@@ -23,7 +23,7 @@
   top: 100%;
   left: 0;
 }
-.portfolioContainer .portfolioTitle h2::after {
+.portfolioContainer .portfolioTitle h1::after {
   content: '';
   height: 3px;
   width: 100px;
@@ -84,7 +84,7 @@
 
 @media screen and (max-width: 894px) {
   .portfolioCardWrapper .portfolioCard {
-     margin: auto;
+    margin: auto;
   }
 }
 @media screen and (max-width: 768px) {

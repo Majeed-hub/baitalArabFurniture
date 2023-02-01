@@ -4,9 +4,9 @@ import './Portfolio.css';
 
 const Portfolio = () => {
   return (
-    <div className="portfolioContainer">
+    <section className="portfolioContainer">
       <div className="portfolioTitle">
-        <h2>Products</h2>
+        <h1>Products</h1>
       </div>
       <div className="portfolioCardWrapper">
         <div class="portfolioCard">
@@ -65,7 +65,7 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

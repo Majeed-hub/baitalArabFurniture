@@ -23,8 +23,8 @@
         display: inline-block;
         margin: 7px;
 } */
-@media screen and (max-width:630px){
-  .card{
+@media screen and (max-width: 630px) {
+  .blogCard {
     width: 80%;
   }
 }
