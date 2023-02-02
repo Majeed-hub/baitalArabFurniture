@@ -75,12 +75,37 @@
 .portfolioCard:hover .overlay {
   opacity: 1;
 }
+/* @media screen and (min-width: 893px) {
+  .portfolioCardWrapper {
+    justify-content: space-around;
+  }
 
-@media screen and (min-width: 1345px) {
+  .portfolioContainer {
+    width: 70%;
+    margin: auto;
+  }
+
+} */
+@media screen and (max-width: 1338px) {
+  .portfolioCardWrapper {
+    justify-content: space-around;
+  }
+
+  .portfolioContainer {
+    width: 80%;
+    margin: auto;
+  }
+
+}
+
+
+@media screen and (min-width: 1340px) {
   .portfolioCardWrapper {
     justify-content: space-between;
   }
+    
 }
+
 
 @media screen and (max-width: 894px) {
   .portfolioCardWrapper .portfolioCard {
