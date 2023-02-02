@@ -25,57 +25,59 @@ import BlogCard from '../../components/BlogCard/BlogCard';
 const Home = () => {
   return (
     <div>
-      <div
-        id="carouselExampleAutoplaying"
-        className="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img src={Banner} className="d-block banner-img" alt="..." />
-           
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Premium furniture</h5>
+      <section>
+        <div
+          id="carouselExampleAutoplaying"
+          className="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div className="carousel-inner">
+            <div className="carousel-item active">
+              <img src={Banner} className="d-block banner-img" alt="..." />
+
+              <div className="carousel-caption d-none d-md-block">
+                <h5>Premium furniture</h5>
+              </div>
+            </div>
+            <div className="carousel-item">
+              <img src={Banner_2} className="d-block banner-img" alt="..." />
+              <div className="carousel-caption d-none d-md-block">
+                <h5>living room furniture</h5>
+              </div>
+            </div>
+            <div className="carousel-item">
+              <img src={Banner_3} className="d-block banner-img" alt="..." />
+              <div className="carousel-caption d-none d-md-block">
+                <h5>modern wardrobe</h5>
+              </div>
             </div>
           </div>
-          <div className="carousel-item">
-            <img src={Banner_2} className="d-block banner-img" alt="..." />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>living room furniture</h5>
-            </div>
-          </div>
-          <div className="carousel-item">
-            <img src={Banner_3} className="d-block banner-img" alt="..." />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>modern wardrobe</h5>
-            </div>
-          </div>
+          <button
+            className="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+          >
+            <span
+              className="carousel-control-prev-icon"
+              aria-hidden="true"
+            ></span>
+            <span className="visually-hidden">Previous</span>
+          </button>
+          <button
+            className="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span
+              className="carousel-control-next-icon"
+              aria-hidden="true"
+            ></span>
+            <span className="visually-hidden">Next</span>
+          </button>
         </div>
-        <button
-          className="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleAutoplaying"
-          data-bs-slide="prev"
-        >
-          <span
-            className="carousel-control-prev-icon"
-            aria-hidden="true"
-          ></span>
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button
-          className="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleAutoplaying"
-          data-bs-slide="next"
-        >
-          <span
-            className="carousel-control-next-icon"
-            aria-hidden="true"
-          ></span>
-          <span className="visually-hidden">Next</span>
-        </button>
-      </div>
+      </section>
 
       <section className="productContainer">
         <div className="itemContainer">
@@ -214,39 +216,35 @@ const Home = () => {
             />
           </div>
         </div>
-      </div>
-        <div className="blog-section">
-          <div className="heading productTitle" style={{marginLeft:"40px"}}>
-            <h2>Blogs</h2>
-          </div>
-          <div className="BlogCardWrapper">
-            <BlogCard
-              id="1"
-              title={Article1.title}
-              content={Article1.tagline}
-            />
-            <BlogCard
-              id="2"
-              title={Article2.title}
-              content={
-                "With supporting text below as a natural lead-in to additional content."
-              }
-            />
-            <BlogCard
-              id="3"
-              title={Article3.title}
-              content={
-                "With supporting text below as a natural lead-in to additional content."
-              }
-            />
-          </div>
+      </section>
+      <section className="blog-section">
+        <div className="heading productTitle" style={{ marginLeft: '40px' }}>
+          <h1>Blogs</h1>
         </div>
-      <div className="aboutUsContainer">
+        <div className="BlogCardWrapper">
+          <BlogCard id="1" title={Article1.title} content={Article1.tagline} />
+          <BlogCard
+            id="2"
+            title={Article2.title}
+            content={
+              'With supporting text below as a natural lead-in to additional content.'
+            }
+          />
+          <BlogCard
+            id="3"
+            title={Article3.title}
+            content={
+              'With supporting text below as a natural lead-in to additional content.'
+            }
+          />
+        </div>
+      </section>
+      <section className="aboutUsContainer">
         <div className="aboutUsTitle">
           <h1>About Us</h1>
         </div>
         <div className="aboutUsDescription">
-          <p style={{textAlign:"center", fontSize:"25px"}}>
+          <p style={{ textAlign: 'center', fontSize: '25px' }}>
             Furniture has been an integral part of human life for a very long
             time, and one cannot simply imagine his/her life without its
             presence. It needs to be a memorable and enjoyable experience and
