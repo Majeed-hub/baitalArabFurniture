@@ -24,6 +24,7 @@ import MaterialSelection from '../../Assests/images/choice.svg';
 import { Link } from 'react-router-dom';
 import { Article1, Article2, Article3 } from '../BlogDetail/Data/BlogData';
 import BlogCard from '../../components/BlogCard/BlogCard';
+import ReviewCard from '../../components/ReviewCard/ReviewCard';
 
 const Home = () => {
   return (
@@ -235,6 +236,33 @@ const Home = () => {
             />
           </div>
         </div>
+
+        <div className="aboutUsTestimonial">
+          <div className="aboutUsTitle">
+            <h1>Our Clients</h1>
+          </div>
+          <div className="aboutUsCardWrapper">
+            <ReviewCard
+              reviewContent={
+                'The entire experience from the ordering to delivering the finished product leaves us remarkably convinced that it was the right decision to work with your company.'
+              }
+              author={'- Al Rukn Al Aseel Home Furniture L.L.C (Ajman U.A.E)'}
+            />
+            <ReviewCard
+              reviewContent={
+                'Professionalism and friendly coordination. If you are looking for a furniture company with experienced craftsmen, then I highly recommend Al Bait Furniture Factory. '
+              }
+              author={'- Gateway Interiors (Dubai U.A.E)'}
+            />
+            <ReviewCard
+              reviewContent={
+                'After working with Al Bayt Furniture I can say that they are well-equipped and use high-quality materials in their production and the craftsmen are so experienced that they can manufacture any design that one offers.'
+              }
+              author={'- Al Zayan Furniture (Ajman)'}
+            />
+          </div>
+        </div>
+
         <div className="aboutUsOurServices">
           <div className="aboutUsTitle">
             <h1>Our Services</h1>
