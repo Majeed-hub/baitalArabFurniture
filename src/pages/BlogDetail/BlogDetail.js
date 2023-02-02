@@ -10,7 +10,7 @@ const BlogDetail = () => {
     <>
       {id === "1" && (
         <Container>
-          <Heading>{Article1.title}</Heading>
+          <Heading>{Article1.tagline}</Heading>
           <ArticleContent>{Article1.content}</ArticleContent>
           <Link className="btn btnGoBack" to={`/blog`}>
             Go Back
@@ -19,7 +19,7 @@ const BlogDetail = () => {
       )}
       {id === "2" && (
         <Container>
-          <Heading>{Article2.title}</Heading>
+          <Heading>{Article2.tagline}</Heading>
           <ArticleContent>{Article2.content}</ArticleContent>
           <Link className="btn btnGoBack" to={`/blog`}>
             Go Back
@@ -28,7 +28,7 @@ const BlogDetail = () => {
       )}
       {id === "3" && (
         <Container>
-          <Heading>{Article3.title}</Heading>
+          <Heading>{Article3.tagline}</Heading>
           <ArticleContent>{Article3.content}</ArticleContent>
           <Link className="btn btnGoBack" to={`/blog`}>
             Go Back
@@ -37,7 +37,7 @@ const BlogDetail = () => {
       )}
       {id === "4" && (
         <Container>
-          <Heading>{Article4.title}</Heading>
+          <Heading>{Article4.tagline}</Heading>
           <ArticleContent>{Article4.content}</ArticleContent>
           <Link className="btn btnGoBack" to={`/blog`}>
             Go Back

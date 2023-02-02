@@ -13,6 +13,7 @@ export const BlogCard = ({ id, title, content }) => {
         display: 'inline-block',
         margin: '7px',
         padding: '15px',
+        position:"relative",
       }}
       className="blogCard"
     >
@@ -21,7 +22,7 @@ export const BlogCard = ({ id, title, content }) => {
         <p class="card-text" style={{ fontSize: '25px' }}>
           {content}
         </p>
-        <Link className="btn btnViewMore" to={`/blog-detail/${id}`}>
+        <Link className="btn btnViewMore" to={`/blog-detail/${id}`} style={{position:"absolute",bottom:"20px"}}>
           Read More
         </Link>
         {/* <a href="#" class="btn btn-primary">

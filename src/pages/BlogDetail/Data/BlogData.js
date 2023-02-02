@@ -1,34 +1,35 @@
 export const Article1 = {
   id: 1,
   title: "First Article",
-  tagline: "iPhone 14 series is now official globally including in India.",
+  tagline: "The Top Trends in Furniture Design for 2023",
   content:
-    "iPhone 14 series is now official globally including in India. The new iPhone series comes in four versions including -- iPhone 14, iPhone 14 Plus, iPhone 14 Pro, and iPhone 14 Pro Max. Just like most iPhones launched so far, the pricing of the iPhone 14 series is comparatively higher in India than it is in the US. In fact, the iPhone 14 pricing in India is higher than in several other countries for including the UK, China, New Zealand, UAE, and many others. in the other hand, the Cupertino-based tech giant has kept the price of the iPhone 14 somewhat similar to the iPhone 13 in the US but raised the price excessively in some of the global markets. In the United States, the base 128GB model of the iPhone 14 starts at $799, which is the same as the launch price of the iPhone 13 introduced last year. The price of the most expensive iPhone 14 version -- iPhone 14 Pro Max -- starts at $1,099, which is again the same as the launch price of the iPhone 13 Pro Max.",
+    "Furniture design is constantly evolving, with new trends emerging each year. From bold patterns to eco-friendly materials, it can be difficult to keep up with the latest styles. In this blog, we'll take a look at some of the top furniture design trends for 2023 and how they can be incorporated into your home or office space. From maximalism to minimalist aesthetics, we'll explore the hottest trends in furniture design and how you can use them to create a space that reflects your personal style.",
 };
 export const Article2 = {
   id: 2,
 
   title: "Second article",
-  tagline: "iPhone 14 series is now official globally including in India.",
+  tagline: "5 Reasons Why Investing in Custom Furniture is Worth it",
 
   content:
-    "iPhone 14 series is now official globally including in India. The new iPhone series comes in four versions including -- iPhone 14, iPhone 14 Plus, iPhone 14 Pro, and iPhone 14 Pro Max. Just like most iPhones launched so far, the pricing of the iPhone 14 series is comparatively higher in India than it is in the US. In fact, the iPhone 14 pricing in India is higher than in several other countries for including the UK, China, New Zealand, UAE, and many others. in the other hand, the Cupertino-based tech giant has kept the price of the iPhone 14 somewhat similar to the iPhone 13 in the US but raised the price excessively in some of the global markets. In the United States, the base 128GB model of the iPhone 14 starts at $799, which is the same as the launch price of the iPhone 13 introduced last year. The price of the most expensive iPhone 14 version -- iPhone 14 Pro Max -- starts at $1,099, which is again the same as the launch price of the iPhone 13 Pro Max.",
+    "Custom furniture offers a unique touch to any home or office space, with the added benefit of being tailored to the specific needs and preferences of the owner. From increased durability to a personalized design, there are numerous benefits to investing in custom furniture. In this blog, we'll explore five key reasons why custom furniture is worth the investment.",
 };
 export const Article3 = {
   id: 3,
 
   title: "Third article",
-  tagline: "iPhone 14 series is now official globally including in India.",
+  tagline:
+    "The Environmental Impact of Furniture Production and How Our Factory is Making a Difference",
 
   content:
-    "iPhone 14 series is now official globally including in India. The new iPhone series comes in four versions including -- iPhone 14, iPhone 14 Plus, iPhone 14 Pro, and iPhone 14 Pro Max. Just like most iPhones launched so far, the pricing of the iPhone 14 series is comparatively higher in India than it is in the US. In fact, the iPhone 14 pricing in India is higher than in several other countries for including the UK, China, New Zealand, UAE, and many others. in the other hand, the Cupertino-based tech giant has kept the price of the iPhone 14 somewhat similar to the iPhone 13 in the US but raised the price excessively in some of the global markets. In the United States, the base 128GB model of the iPhone 14 starts at $799, which is the same as the launch price of the iPhone 13 introduced last year. The price of the most expensive iPhone 14 version -- iPhone 14 Pro Max -- starts at $1,099, which is again the same as the launch price of the iPhone 13 Pro Max.",
+    "Furniture production can have a significant impact on the environment, from the materials used to the manufacturing process. At our furniture factory, we're committed to reducing our carbon footprint and using sustainable practices to ensure that our products are made with the health of the planet in mind. In this blog, we'll delve into the environmental impact of furniture production and how our factory is making a difference.",
 };
 export const Article4 = {
   id: 4,
 
   title: "Fourth article",
-  tagline: "iPhone 14 series is now official globally including in India.",
+  tagline: "The Importance of Craftsmanship in Furniture Making",
 
   content:
-    "iPhone 14 series is now official globally including in India. The new iPhone series comes in four versions including -- iPhone 14, iPhone 14 Plus, iPhone 14 Pro, and iPhone 14 Pro Max. Just like most iPhones launched so far, the pricing of the iPhone 14 series is comparatively higher in India than it is in the US. In fact, the iPhone 14 pricing in India is higher than in several other countries for including the UK, China, New Zealand, UAE, and many others. in the other hand, the Cupertino-based tech giant has kept the price of the iPhone 14 somewhat similar to the iPhone 13 in the US but raised the price excessively in some of the global markets. In the United States, the base 128GB model of the iPhone 14 starts at $799, which is the same as the launch price of the iPhone 13 introduced last year. The price of the most expensive iPhone 14 version -- iPhone 14 Pro Max -- starts at $1,099, which is again the same as the launch price of the iPhone 13 Pro Max.",
+    "Craftsmanship is a vital aspect of furniture making, and it's what sets hand-made pieces apart from mass-produced items. From choosing the right materials to paying close attention to detail, every step in the process contributes to the final product. In this blog, we'll highlight the importance of craftsmanship in furniture making and how it plays a role in creating pieces that will last a lifetime.",
 };

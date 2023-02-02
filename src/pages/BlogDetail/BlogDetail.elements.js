@@ -36,4 +36,5 @@ export const Heading = styled.h2`
 export const ArticleContent = styled.p`
   font-family: "Roboto", sans-serif;
   font-weight: 300;
+  font-size: 25px;
 `;

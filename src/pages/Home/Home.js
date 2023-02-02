@@ -291,21 +291,9 @@ const Home = () => {
           <h1>Blogs</h1>
         </div>
         <div className="BlogCardWrapper">
-          <BlogCard id="1" title={Article1.title} content={Article1.tagline} />
-          <BlogCard
-            id="2"
-            title={Article2.title}
-            content={
-              "With supporting text below as a natural lead-in to additional content."
-            }
-          />
-          <BlogCard
-            id="3"
-            title={Article3.title}
-            content={
-              "With supporting text below as a natural lead-in to additional content."
-            }
-          />
+          <BlogCard id="1" content={Article1.tagline} />
+          <BlogCard id="2" content={Article2.tagline} />
+          <BlogCard id="3" content={Article3.tagline} />
         </div>
       </section>
       <section className="aboutUsContainer">

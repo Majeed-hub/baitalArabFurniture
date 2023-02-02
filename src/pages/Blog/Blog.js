@@ -15,27 +15,23 @@ const Blog = () => {
         <h1>Blogs</h1>
       </div>
       <div className="BlogCardWrapper">
-        <BlogCard id="1" title={Article1.title} content={Article1.tagline} />
+        <BlogCard
+          id="1"
+          content={"The Top Trends in Furniture Design for 2023"}
+        />
         <BlogCard
           id="2"
-          title={Article2.title}
-          content={
-            'With supporting text below as a natural lead-in to additional content.'
-          }
+          content={"5 Reasons Why Investing in Custom Furniture is Worth it"}
         />
         <BlogCard
           id="3"
-          title={Article3.title}
           content={
-            'With supporting text below as a natural lead-in to additional content.'
+            "The Environmental Impact of Furniture Production and How Our Factory is Making a Difference"
           }
         />
         <BlogCard
           id="4"
-          title={Article4.title}
-          content={
-            'With supporting text below as a natural lead-in to additional content.'
-          }
+          content={"The Importance of Craftsmanship in Furniture Making"}
         />
       </div>
     </section>
