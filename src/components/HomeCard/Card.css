@@ -15,8 +15,9 @@
 
 .cardTitle h5 {
   margin: 10px 0 5px 0;
-  font-family: 'Belleza', sans-serif;
-  font-size: 38px;
+  font-family: 'Dancing Script', sans-serif;
+  font-size: 30px;
+  text-align: center;
 }
 
 .cardTitle p {
