@@ -89,7 +89,7 @@ const Footer = () => {
               style={{
                 fontSize: "15px",
                 padding: "4px",
-                fontFamily: "Roboto,sans-serif",
+                fontFamily: "Dancing Script,sans-serif",
                 fontWeight: "300",
                 textAlign: "center",
               }}
