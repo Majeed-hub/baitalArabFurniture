@@ -5,21 +5,22 @@ import './BlogCard.css';
 export const BlogCard = ({ id, title, content }) => {
   return (
     <div
-      class="card"
       style={{
-        boxSizing:"border-box",
+        boxSizing: 'border-box',
         width: '20rem',
         backgroundColor: '#FAF8F1',
         height: '290px',
         display: 'inline-block',
         margin: '7px',
-        padding:"15px"
+        padding: '15px',
       }}
-      className="blogC"
+      className="blogCard"
     >
       <div class="card-body">
-        <h5 class="card-title">{title}</h5>
-        <p class="card-text" style={{fontSize:"25px"}}>{content}</p>
+        <h2 class="card-title">{title}</h2>
+        <p class="card-text" style={{ fontSize: '25px' }}>
+          {content}
+        </p>
         <Link className="btn btnViewMore" to={`/blog-detail/${id}`}>
           Read More
         </Link>

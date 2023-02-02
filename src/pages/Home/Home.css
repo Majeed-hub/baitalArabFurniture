@@ -23,14 +23,14 @@
   position: relative;
 }
 
-.productContainer .productTitle h2 {
+.productContainer .productTitle h1 {
   margin-bottom: 0;
   font-family: 'Belleza', sans-serif;
   font-size: 45px;
 }
 
 /* Two lines below product start*/
-.productContainer .productTitle h2::before {
+.productContainer .productTitle h1::before {
   content: '';
   height: 3px;
   width: 130px;
@@ -39,7 +39,7 @@
   top: 100%;
   left: 0;
 }
-.productContainer .productTitle h2::after {
+.productContainer .productTitle h1::after {
   content: '';
   height: 3px;
   width: 100px;
@@ -68,7 +68,7 @@
 .itemCardContainer {
   display: flex;
   flex-wrap: wrap;
-  
+
   /* justify-content: space-evenly; */
 }
 
@@ -79,4 +79,3 @@
     align-items: center;
   }
 }
-
