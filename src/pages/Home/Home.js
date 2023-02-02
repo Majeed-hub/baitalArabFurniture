@@ -32,22 +32,40 @@ const Home = () => {
       >
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={Banner} className="d-block banner-img" alt="..." />
-           
             <div className="carousel-caption d-none d-md-block">
-              <h5>Premium furniture</h5>
+              <h5>
+                {" "}
+                <div className="contactBtn">
+                  <a className="btn btnViewMore contactUsBtn" href="#footer">
+                    Order Now
+                  </a>
+                </div>
+              </h5>
             </div>
+            <img src={Banner} className="d-block banner-img" alt="..." />
           </div>
           <div className="carousel-item">
             <img src={Banner_2} className="d-block banner-img" alt="..." />
             <div className="carousel-caption d-none d-md-block">
-              <h5>living room furniture</h5>
+              <h5>
+                <div className="contactBtn">
+                  <a className="btn btnViewMore contactUsBtn" href="#footer">
+                    Order Now
+                  </a>
+                </div>
+              </h5>
             </div>
           </div>
           <div className="carousel-item">
             <img src={Banner_3} className="d-block banner-img" alt="..." />
             <div className="carousel-caption d-none d-md-block">
-              <h5>modern wardrobe</h5>
+              <h5>
+                <div className="contactBtn">
+                  <a className="btn btnViewMore contactUsBtn" href="#footer">
+                    Order Now
+                  </a>
+                </div>
+              </h5>
             </div>
           </div>
         </div>
@@ -215,38 +233,34 @@ const Home = () => {
           </div>
         </div>
       </div>
-        <div className="blog-section">
-          <div className="heading productTitle" style={{marginLeft:"40px"}}>
-            <h2>Blogs</h2>
-          </div>
-          <div className="BlogCardWrapper">
-            <BlogCard
-              id="1"
-              title={Article1.title}
-              content={Article1.tagline}
-            />
-            <BlogCard
-              id="2"
-              title={Article2.title}
-              content={
-                "With supporting text below as a natural lead-in to additional content."
-              }
-            />
-            <BlogCard
-              id="3"
-              title={Article3.title}
-              content={
-                "With supporting text below as a natural lead-in to additional content."
-              }
-            />
-          </div>
+      <div className="blog-section">
+        <div className="heading productTitle" style={{ marginLeft: "40px" }}>
+          <h2>Blogs</h2>
         </div>
+        <div className="BlogCardWrapper">
+          <BlogCard id="1" title={Article1.title} content={Article1.tagline} />
+          <BlogCard
+            id="2"
+            title={Article2.title}
+            content={
+              "With supporting text below as a natural lead-in to additional content."
+            }
+          />
+          <BlogCard
+            id="3"
+            title={Article3.title}
+            content={
+              "With supporting text below as a natural lead-in to additional content."
+            }
+          />
+        </div>
+      </div>
       <div className="aboutUsContainer">
         <div className="aboutUsTitle">
           <h2>About Us</h2>
         </div>
         <div className="aboutUsDescription">
-          <p style={{textAlign:"center", fontSize:"25px"}}>
+          <p style={{ textAlign: "center", fontSize: "25px" }}>
             Furniture has been an integral part of human life for a very long
             time, and one cannot simply imagine his/her life without its
             presence. It needs to be a memorable and enjoyable experience and
