@@ -76,10 +76,10 @@ const Footer = () => {
             <h4
               className="brand-name"
               style={{
-                color: 'black',
-                textAlign: 'center',
-                margin: '0',
-                padding: '7px',
+                color: "black",
+                textAlign: "center",
+                margin: "0",
+                padding: "7px",
               }}
             >
               BaitalArab
@@ -87,38 +87,36 @@ const Footer = () => {
             <p
               className="description"
               style={{
-                fontSize: '15px',
-                padding: '4px',
-                fontFamily: 'Roboto,sans-serif',
-                fontWeight: '300',
-                textAlign: 'center',
+                fontSize: "15px",
+                padding: "4px",
+                fontFamily: "Roboto,sans-serif",
+                fontWeight: "300",
+                textAlign: "center",
               }}
             >
               Adipisicing laborum aliqua ad aliquip ad. Dolore deserunt elit
-              velit nulla officia nisi anim velit laboris. Eu ex laborum
-              consequat ut cillum esse quis laborum cupidatat consequa
-              exercitation in.
+              velit nulla officia.
             </p>
             <div
               className="social-links"
-              style={{ display: 'flex', justifyContent: 'space-around' }}
+              style={{ display: "flex", justifyContent: "space-around" }}
             >
               <a
                 href="https://www.instagram.com/"
                 className="footerlink"
-                style={{ textDecoration: 'none', fontFamily: 'Pacifico' }}
+                style={{ textDecoration: "none", fontFamily: "Pacifico" }}
               >
                 instagram
               </a>
               <a
                 href="https://www.facebook.com/"
-                style={{ textDecoration: 'none', fontFamily: 'Pacifico' }}
+                style={{ textDecoration: "none", fontFamily: "Pacifico" }}
               >
                 facebook
               </a>
               <a
                 href="https://www.linkedin.com/"
-                style={{ textDecoration: 'none', fontFamily: 'Pacifico' }}
+                style={{ textDecoration: "none", fontFamily: "Pacifico" }}
               >
                 linkedIn
               </a>
@@ -148,16 +146,27 @@ const Footer = () => {
               <h3
                 className="heading"
                 style={{
-                  textAlign: 'center',
-                  fontFamily: 'Belleza',
-                  margin: '10px',
+                  textAlign: "center",
+                  fontFamily: "Belleza",
+                  margin: "10px",
                 }}
               >
                 Address
               </h3>
-              <p className="address" style={{ textAlign: 'center' }}>
-                xyz street, opp abc hotel,
-                <br /> dubai uae
+              <p
+                className="address"
+                style={{
+                  fontSize: "15px",
+                  padding: "4px",
+                  fontFamily: "Roboto,sans-serif",
+                  fontWeight: "300",
+                  textAlign: "center",
+                }}
+              >
+                Sanaya Industrial Area-2, Ajman, UAE
+                <br />
+                Contact number : <br /> 056 229 4750 <br /> 050 309 2539
+                <br /> 052 199 4925
               </p>
             </div>
           </div>
@@ -166,8 +175,8 @@ const Footer = () => {
             <h4
               className="heading"
               style={{
-                color: 'black',
-                textAlign: 'center',
+                color: "black",
+                textAlign: "center",
               }}
             >
               Location
@@ -175,27 +184,27 @@ const Footer = () => {
             <div
               className="mapouter"
               style={{
-                position: 'relative',
-                textAlign: 'right',
-                height: '292px',
-                width: '289px',
+                position: "relative",
+                textAlign: "right",
+                height: "292px",
+                width: "289px",
               }}
             >
               <div
                 className="gmap_canvas"
                 style={{
-                  overflow: 'hidden',
-                  background: 'none',
-                  height: '292px',
-                  width: '289px',
-                  borderRadius: '10px',
+                  overflow: "hidden",
+                  background: "none",
+                  height: "292px",
+                  width: "289px",
+                  borderRadius: "10px",
                 }}
               >
                 <iframe
                   width="289"
                   height="240"
                   id="gmap_canvas"
-                  src="https://maps.google.com/maps?q=dubai&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57677.34531913008!2d55.39721145820313!3d25.3768766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f59fd3d9149eb%3A0x1466520549c2e080!2sBait%20Al-Arab%20Home%20Furniture%20manufacturing%20L.L.C!5e0!3m2!1sen!2sus!4v1675356551971!5m2!1sen!2sus"
                   frameBorder="0"
                   scrolling="no"
                   marginHeight="0"
