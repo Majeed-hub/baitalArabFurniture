@@ -13,6 +13,10 @@
   }
 }
 
+.bannerHeading{
+  margin-bottom: 20px;
+}
+
 .productContainer {
   width: 87%;
   margin: auto;
