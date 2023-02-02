@@ -2,7 +2,7 @@
 .blog-section {
   width: 80%;
   margin: auto;
-  min-height: 70vh;
+  max-height: 73vh;
   margin-top: 100px;
 }
 .BlogCardWrapper {
@@ -57,11 +57,20 @@
   .blog-section {
     width: 100%;
     margin: auto;
+    margin-bottom: 350px;
   }
+    
   .BlogCardWrapper {
     display: flex;
     align-items: center;
     flex-direction: column;
+  }
+}
+@media screen and (max-width: 376px) {
+  .blog-section {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 490px;
   }
 }
 .heading {
