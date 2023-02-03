@@ -1,12 +1,12 @@
 import React from 'react';
 import './Blog.css';
 import BlogCard from '../../components/BlogCard/BlogCard';
-import {
-  Article1,
-  Article2,
-  Article3,
-  Article4,
-} from '../BlogDetail/Data/BlogData';
+// import {
+//   Article1,
+//   Article2,
+//   Article3,
+//   Article4,
+// } from '../BlogDetail/Data/BlogData';
 
 const Blog = () => {
   return (
