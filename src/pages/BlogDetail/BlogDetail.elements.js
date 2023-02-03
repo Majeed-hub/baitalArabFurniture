@@ -37,4 +37,7 @@ export const ArticleContent = styled.p`
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 22px;
+  @media screen and (max-width: 540px) {
+    font-size: 18px;
+  }
 `;
