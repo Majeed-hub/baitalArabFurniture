@@ -95,21 +95,17 @@
     width: 80%;
     margin: auto;
   }
-
 }
-
 
 @media screen and (min-width: 1340px) {
   .portfolioCardWrapper {
-    justify-content: space-between;
+    justify-content: space-around;
   }
-    
 }
-
 
 @media screen and (max-width: 894px) {
   .portfolioCardWrapper .portfolioCard {
-    margin: auto;
+    margin: 10px auto;
   }
 }
 @media screen and (max-width: 768px) {

@@ -1,5 +1,12 @@
 import React from 'react';
-import Portfolio1 from '../../Assests/images/portfolio1.png';
+import Portfolio_1 from '../../Assests/images/portfolio1.png';
+import Portfolio_2 from '../../Assests/images/portfolio2.jpg';
+import Portfolio_3 from '../../Assests/images/portfolio3.png';
+import Portfolio_4 from '../../Assests/images/portfolio4.jpg';
+import Portfolio_5 from '../../Assests/images/portfolio5.jpg';
+import Portfolio_6 from '../../Assests/images/table1.jpg';
+import Portfolio_7 from '../../Assests/images/Modern_Wardrobe1.jpg';
+import Portfolio_8 from '../../Assests/images/portfolio6.jpg';
 import './Portfolio.css';
 
 const Portfolio = () => {
@@ -10,7 +17,7 @@ const Portfolio = () => {
       </div>
       <div className="portfolioCardWrapper">
         <div class="portfolioCard">
-          <img src={Portfolio1} alt="" />
+          <img src={Portfolio_1} alt="" />
           <div class="overlay">
             <div className="portfolioCardHover">
               <p>Decorative Table</p>
@@ -20,7 +27,7 @@ const Portfolio = () => {
         </div>
 
         <div className="portfolioCard">
-          <img src={Portfolio1} alt="" />
+          <img src={Portfolio_2} alt="" />
           <div className="overlay">
             <div className="portfolioCardHover">
               <p>Decorative Table</p>
@@ -29,7 +36,7 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="portfolioCard">
-          <img src={Portfolio1} alt="" />
+          <img src={Portfolio_3} alt="" />
           <div className="overlay">
             <div className="portfolioCardHover">
               <p>Decorative Table</p>
@@ -38,7 +45,7 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="portfolioCard">
-          <img src={Portfolio1} alt="" />
+          <img src={Portfolio_4} alt="" />
           <div className="overlay">
             <div className="portfolioCardHover">
               <p>Decorative Table</p>
@@ -47,7 +54,7 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="portfolioCard">
-          <img src={Portfolio1} alt="" />
+          <img src={Portfolio_5} alt="" />
           <div className="overlay">
             <div className="portfolioCardHover">
               <p>Decorative Table</p>
@@ -56,7 +63,25 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="portfolioCard">
-          <img src={Portfolio1} alt="" />
+          <img src={Portfolio_6} alt="" />
+          <div className="overlay">
+            <div className="portfolioCardHover">
+              <p>Decorative Table</p>
+              <span>Interior</span>
+            </div>
+          </div>
+        </div>
+        <div className="portfolioCard">
+          <img src={Portfolio_7} alt="" />
+          <div className="overlay">
+            <div className="portfolioCardHover">
+              <p>Decorative Table</p>
+              <span>Interior</span>
+            </div>
+          </div>
+        </div>
+        <div className="portfolioCard">
+          <img src={Portfolio_8} alt="" />
           <div className="overlay">
             <div className="portfolioCardHover">
               <p>Decorative Table</p>
