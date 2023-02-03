@@ -127,13 +127,13 @@ const Home = () => {
           </div>
           <div className="itemCardContainer">
             <ProductCard
-              title={'Sofa'}
+              title={"Sofa"}
               content={
-                'Specialized in crafting the Sofa that elevates the presence of space with the harmonious blend of style and comfort, a symphony of form and function that creates an ambiance of serenity and luxury, and refinement that imbues a sense of calm and well-being in any room it graces.'
+                "Specialized in crafting the Sofa that elevates the presence of space with the harmonious blend of style and comfort, a symphony of form and function that creates an ambiance of serenity and luxury, and refinement that imbues a sense of calm and well-being in any room it graces."
               }
             />
-            <Cart img={Sofa_1} title={'Single Seater'} />
-            <Cart img={Sofa_2} title={'Two Seater'} />
+            <Cart img={Sofa_1} title={"Single Seater"} />
+            <Cart img={Sofa_2} title={"Two Seater"} />
           </div>
 
           {/* <div className="itemTitle">
@@ -148,13 +148,13 @@ const Home = () => {
         </div>
         <div className="itemCardContainer">
           <ProductCard
-            title={'Bed'}
+            title={"Bed"}
             content={
-              'Expertise in fashioning the style and comfort that elevates a sanctuary of slumberous, A place of respite and renewal that offers a welcome escape from the world and promises a night of restful slumber.'
+              "Expertise in fashioning the style and comfort that elevates a sanctuary of slumberous, A place of respite and renewal that offers a welcome escape from the world and promises a night of restful slumber."
             }
           />
-          <Cart img={Bed_1} title={'Master bed'} />
-          <Cart img={Bed_2} title={'Queen bed'} />
+          <Cart img={Bed_1} title={"Master bed"} />
+          <Cart img={Bed_2} title={"Queen bed"} />
         </div>
         {/* <div className="itemContainer">
           <div className="itemTitle">
@@ -180,23 +180,23 @@ const Home = () => {
         </div> */}
         <div className="itemCardContainer">
           <ProductCard
-            title={'Table'}
+            title={"Table"}
             content={
-              'The idealist in manufacturing Table, which is a functional place and symbol of hospitality and the bond of family and friends, a gathering place for the collective nourishment of the body and soul where the interactions create a symphony of sustenance.'
+              "The idealist in manufacturing Table, which is a functional place and symbol of hospitality and the bond of family and friends, a gathering place for the collective nourishment of the body and soul where the interactions create a symphony of sustenance."
             }
           />
-          <Cart img={Table_1} title={'Dinning Table'} />
-          <Cart img={Table_2} title={'Study Table'} />
+          <Cart img={Table_1} title={"Dinning Table"} />
+          <Cart img={Table_2} title={"Study Table"} />
         </div>
         <div className="itemCardContainer">
           <ProductCard
-            title={'Wardrobe/Cabinet'}
+            title={"Wardrobe/Cabinet"}
             content={
-              'Formalistic in crafting repositories that guard our attire and accessories of our personal style which adds color, character, and charm to our performance in the grand drama of life.'
+              "Formalistic in crafting repositories that guard our attire and accessories of our personal style which adds color, character, and charm to our performance in the grand drama of life."
             }
           />
-          <Cart img={Wardrobe_1} title={'Modern Wardrobe'} />
-          <Cart img={Wardrobe_2} title={'Minimalist Wardrobe'} />
+          <Cart img={Wardrobe_1} title={"Modern Wardrobe"} />
+          <Cart img={Wardrobe_2} title={"Minimalist Wardrobe"} />
         </div>
       </section>
       <section className="aboutUsContainer">
@@ -207,29 +207,29 @@ const Home = () => {
           <div className="aboutUsCardWrapper">
             <TestimonialCard
               image={Leadership}
-              title={'LEADERSHIP'}
+              title={"LEADERSHIP"}
               // desc={
               //   'Out multicultural leaders have deep start-up and enterprise experience. with rich mobile and data expertise.'
               // }
               desc={
-                'We unreservedly recognize design and production standards to promote innovation. '
+                "We unreservedly recognize design and production standards to promote innovation. "
               }
             />
             <TestimonialCard
               image={Career}
-              title={'CAREERS'}
+              title={"CAREERS"}
               // desc={
               //   'Collaboration with veracious stakeholders to ensure meeting the needs of society.'
               // }
               desc={
-                'We take great pride in out market leadership position. thanks to the hard work of out incredibly talented.'
+                "We take great pride in out market leadership position. thanks to the hard work of out incredibly talented."
               }
             />
             <TestimonialCard
               image={Partnership}
-              title={'PARTNERSHIPS'}
+              title={"PARTNERSHIPS"}
               desc={
-                'Collaboration with veracious stakeholders to ensure meeting the needs of society.'
+                "Collaboration with veracious stakeholders to ensure meeting the needs of society."
               }
               // desc={
               //   'From research, to events, to platform partnerships. we work with thought leaders to prodive more actionable data.'
@@ -237,9 +237,9 @@ const Home = () => {
             />
             <TestimonialCard
               image={Press}
-              title={'PRESS'}
+              title={"PRESS"}
               desc={
-                'The platform for showcasing our work and reaching out to the new audience.'
+                "The platform for showcasing our work and reaching out to the new audience."
               }
               // desc={
               //   "We are the forefront of the market's conversation and serve as the most trusted global source."
@@ -255,21 +255,21 @@ const Home = () => {
           <div className="aboutUsCardWrapper">
             <ReviewCard
               reviewContent={
-                'The entire experience from the ordering to delivering the finished product leaves us remarkably convinced that it was the right decision to work with your company.'
+                "The entire experience from the ordering to delivering the finished product leaves us remarkably convinced that it was the right decision to work with your company."
               }
-              author={'- Al Rukn Al Aseel Home Furniture L.L.C (Ajman U.A.E)'}
+              author={"- Al Rukn Al Aseel Home Furniture L.L.C (Ajman U.A.E)"}
             />
             <ReviewCard
               reviewContent={
-                'Professionalism and friendly coordination. If you are looking for a furniture company with experienced craftsmen, then I highly recommend Al Bait Furniture Factory. '
+                "Professionalism and friendly coordination. If you are looking for a furniture company with experienced craftsmen, then I highly recommend Al Bait Furniture Factory. "
               }
-              author={'- Gateway Interiors (Dubai U.A.E)'}
+              author={"- Gateway Interiors (Dubai U.A.E)"}
             />
             <ReviewCard
               reviewContent={
-                'After working with Al Bayt Furniture I can say that they are well-equipped and use high-quality materials in their production and the craftsmen are so experienced that they can manufacture any design that one offers.'
+                "After working with Al Bayt Furniture I can say that they are well-equipped and use high-quality materials in their production and the craftsmen are so experienced that they can manufacture any design that one offers."
               }
-              author={'- Al Zayan Furniture (Ajman)'}
+              author={"- Al Zayan Furniture (Ajman)"}
             />
           </div>
         </div>
@@ -281,24 +281,24 @@ const Home = () => {
           <div className="aboutUsCardWrapper">
             <AboutUsCard
               img={Consultation}
-              title={'Consultation'}
-              desc={'Determine the style and material of the furniture.'}
+              title={"Consultation"}
+              desc={"Determine the style and material of the furniture."}
             />
             <AboutUsCard
               img={Idea}
-              title={'Idea'}
-              desc={'We provide innovative ideas.'}
+              title={"Idea"}
+              desc={"We provide innovative ideas."}
             />
             <AboutUsCard
               img={MaterialSelection}
-              title={'Material Selection'}
-              desc={'Selection of material to be used.'}
+              title={"Material Selection"}
+              desc={"Selection of material to be used."}
             />
           </div>
         </div>
       </section>
       <section className="blog-section">
-        <div className="heading productTitle" style={{ marginLeft: '40px' }}>
+        <div className="heading productTitle" style={{ marginLeft: "40px" }}>
           <h1>Blogs</h1>
         </div>
         <div className="BlogCardWrapper">
@@ -312,13 +312,16 @@ const Home = () => {
           <h1>About Us</h1>
         </div>
         <div className="aboutUsDescription">
-          <p style={{ textAlign: 'center', fontSize: '25px' }}>
+          <p style={{ textAlign: "center", fontSize: "25px" }}>
             Furniture has been an integral part of human life for a very long
             time, and one cannot simply imagine his/her life without its
             presence. It needs to be a memorable and enjoyable experience and
             can be possible only when it is handcrafted to a great extent by
             skilled and experienced craftsmen.{" "}
-            <Link style={{ textDecoration: "none" }} to={"/aboutus"}>
+            <Link
+              style={{ textDecoration: "none", color: "#f3af3b" }}
+              to={"/aboutus"}
+            >
               Read more
             </Link>
           </p>
