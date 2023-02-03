@@ -312,7 +312,10 @@ const Home = () => {
             presence. It needs to be a memorable and enjoyable experience and
             can be possible only when it is handcrafted to a great extent by
             skilled and experienced craftsmen.{" "}
-            <Link style={{ textDecoration: "none" }} to={"/aboutus"}>
+            <Link
+              style={{ textDecoration: "none", color: "#f3af3b" }}
+              to={"/aboutus"}
+            >
               Read more
             </Link>
           </p>
