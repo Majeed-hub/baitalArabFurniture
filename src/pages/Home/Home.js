@@ -25,6 +25,8 @@ import { Link } from 'react-router-dom';
 import { Article1, Article2, Article3 } from '../BlogDetail/Data/BlogData';
 import BlogCard from '../../components/BlogCard/BlogCard';
 import ReviewCard from '../../components/ReviewCard/ReviewCard';
+import { HashLink } from "react-router-hash-link";
+
 
 const Home = () => {
   return (
@@ -43,12 +45,13 @@ const Home = () => {
                 <h5 className="bannerHeading">Premium Furniture</h5>
 
                 <div className="contactBtn">
-                  <a
+                  <HashLink
                     className="btn btn-lg btnViewMore contactUsBtn"
-                    href="#footer"
+                    smooth
+                    to="/#footer"
                   >
                     ORDER NOW
-                  </a>
+                  </HashLink>
                 </div>
               </div>
             </div>
@@ -58,12 +61,13 @@ const Home = () => {
                 <h5 className="bannerHeading">Living Room Furniture</h5>
 
                 <div className="contactBtn">
-                  <a
+                  <HashLink
                     className="btn btn-lg btnViewMore contactUsBtn"
-                    href="#footer"
+                    smooth
+                    to="/#footer"
                   >
                     ORDER NOW
-                  </a>
+                  </HashLink>
                 </div>
               </div>
             </div>
@@ -72,12 +76,13 @@ const Home = () => {
               <div className="carousel-caption d-none d-md-block">
                 <h5 className="bannerHeading">Modern Wardrobe</h5>
                 <div className="contactBtn">
-                  <a
+                  <HashLink
                     className="btn btn-lg btnViewMore contactUsBtn"
-                    href="#footer"
+                    smooth
+                    to="/#footer"
                   >
                     ORDER NOW
-                  </a>
+                  </HashLink>
                 </div>
               </div>
             </div>

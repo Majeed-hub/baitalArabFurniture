@@ -1,7 +1,8 @@
 import React from 'react';
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import './Navbar.css';
 import { Link, NavLink } from 'react-router-dom';
+import {HashLink} from 'react-router-hash-link';
 import logo from '../../Assests/images/logo.png';
 import Menu from '../../Assests/images/menu.png';
 import Close from '../../Assests/images/close.png';
@@ -32,7 +33,7 @@ const Navbar = () => {
       </button>
       <div
         className={
-          isNavExpanded ? 'navigation-menu expanded' : 'navigation-menu'
+          isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
         }
       >
         <ul>
@@ -42,7 +43,7 @@ const Navbar = () => {
                 setIsNavExpanded(!isNavExpanded);
               }}
               to="/"
-              className={({ isActive }) => (isActive ? 'active' : 'navLinks')}
+              className={({ isActive }) => (isActive ? "active" : "navLinks")}
             >
               Home
             </NavLink>
@@ -55,7 +56,7 @@ const Navbar = () => {
               onClick={() => {
                 setIsNavExpanded(!isNavExpanded);
               }}
-              className={({ isActive }) => (isActive ? 'active' : 'navLinks')}
+              className={({ isActive }) => (isActive ? "active" : "navLinks")}
             >
               Product
             </NavLink>
@@ -67,7 +68,7 @@ const Navbar = () => {
               onClick={() => {
                 setIsNavExpanded(!isNavExpanded);
               }}
-              className={({ isActive }) => (isActive ? 'active' : 'navLinks')}
+              className={({ isActive }) => (isActive ? "active" : "navLinks")}
             >
               About
             </NavLink>
@@ -79,7 +80,7 @@ const Navbar = () => {
               onClick={() => {
                 setIsNavExpanded(!isNavExpanded);
               }}
-              className={({ isActive }) => (isActive ? 'active' : 'navLinks')}
+              className={({ isActive }) => (isActive ? "active" : "navLinks")}
             >
               Blogs
             </NavLink>
@@ -88,9 +89,14 @@ const Navbar = () => {
       </div>
 
       <div className="contactBtn">
-        <a className="btn btnViewMore contactUsBtn" href="#footer">
+        <HashLink
+          className="btn btnViewMore contactUsBtn"
+          smooth
+          to="/#footer"
+          
+        >
           Contact Us
-        </a>
+        </HashLink>
       </div>
     </nav>
   );

@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 
 import './Footer.css';
 
+
 const Footer = () => {
   // const form = useRef();
   const form = useRef();
@@ -69,7 +70,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="box" id="footer">
+    <footer className="box" id="footer" >
       <div className="container">
         <div className="row">
           <div className="column">
