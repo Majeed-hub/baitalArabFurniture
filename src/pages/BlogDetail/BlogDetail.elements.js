@@ -9,7 +9,7 @@ export const Container = styled.div`
     width: 70%;
   }
   @media screen and (max-width: 540px) {
-    width: 90%;
+    width: 95%;
   }
 
   /* const AppBar = styled(MuiAppBar)((props) => ({
@@ -36,5 +36,5 @@ export const Heading = styled.h2`
 export const ArticleContent = styled.p`
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  font-size: 25px;
+  font-size: 22px;
 `;
