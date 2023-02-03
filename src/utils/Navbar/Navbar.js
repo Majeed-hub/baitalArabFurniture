@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState, useRef } from 'react';
+import { useState} from 'react';
 import './Navbar.css';
 import { Link, NavLink } from 'react-router-dom';
 import {HashLink} from 'react-router-hash-link';
