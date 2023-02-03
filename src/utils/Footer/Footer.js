@@ -88,15 +88,15 @@ const Footer = () => {
             <p
               className="description"
               style={{
-                fontSize: "15px",
+                fontSize: "12px",
                 padding: "4px",
-                fontFamily: "Dancing Script,sans-serif",
+                fontFamily: "Roboto,sans-serif",
                 fontWeight: "300",
                 textAlign: "center",
               }}
             >
-              Adipisicing laborum aliqua ad aliquip ad. Dolore deserunt elit
-              velit nulla officia.
+              Bait al arab furniture manufacturing LLC deals with crafting
+              from the beginning to the end of design.
             </p>
             <div
               className="social-links"
