@@ -317,8 +317,8 @@ const Home = () => {
             time, and one cannot simply imagine his/her life without its
             presence. It needs to be a memorable and enjoyable experience and
             can be possible only when it is handcrafted to a great extent by
-            skilled and experienced craftsmen.{' '}
-            <Link style={{ textDecoration: 'none' }} to={'/aboutus'}>
+            skilled and experienced craftsmen.{" "}
+            <Link style={{ textDecoration: "none" }} to={"/aboutus"}>
               Read more
             </Link>
           </p>

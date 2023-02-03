@@ -70,7 +70,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="box" id="footer" >
+    <footer className="box" id="footer">
       <div className="container">
         <div className="row">
           <div className="column">
@@ -105,19 +105,31 @@ const Footer = () => {
               <a
                 href="https://www.instagram.com/"
                 className="footerlink"
-                style={{ textDecoration: "none", fontFamily: "Pacifico" }}
+                style={{
+                  textDecoration: "none",
+                  fontFamily: "Pacifico",
+                  color: "#f3af3b",
+                }}
               >
                 instagram
               </a>
               <a
                 href="https://www.facebook.com/"
-                style={{ textDecoration: "none", fontFamily: "Pacifico" }}
+                style={{
+                  textDecoration: "none",
+                  fontFamily: "Pacifico",
+                  color: "#f3af3b",
+                }}
               >
                 facebook
               </a>
               <a
                 href="https://www.linkedin.com/"
-                style={{ textDecoration: "none", fontFamily: "Pacifico" }}
+                style={{
+                  textDecoration: "none",
+                  fontFamily: "Pacifico",
+                  color: "#f3af3b",
+                }}
               >
                 linkedIn
               </a>
