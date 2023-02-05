@@ -6,7 +6,6 @@ import { ToastContainer, toast } from "react-toastify";
 import { Link } from "react-router-dom";
 
 import "./Footer.css";
-import { HashLink } from "react-router-hash-link/dist/react-router-hash-link.cjs.production";
 
 const Footer = () => {
   // const form = useRef();
@@ -105,6 +104,7 @@ const Footer = () => {
               <a
                 href="https://www.instagram.com/baitalarabhomefurniture/"
                 target="_blank"
+                rel="noreferrer"
                 className="footerlink"
                 style={{
                   textDecoration: "none",
@@ -117,6 +117,7 @@ const Footer = () => {
               <a
                 href="https://www.facebook.com/profile.php?id=100086258381847"
                 target="_blank"
+                rel="noreferrer"
                 style={{
                   textDecoration: "none",
                   fontFamily: "Pacifico",
@@ -128,6 +129,7 @@ const Footer = () => {
               <a
                 href="https://www.linkedin.com/in/bait-al-arab-home-furniture-manufacturing-l-l-c-9a7a24251/"
                 target="_blank"
+                rel="noreferrer"
                 style={{
                   textDecoration: "none",
                   fontFamily: "Pacifico",
