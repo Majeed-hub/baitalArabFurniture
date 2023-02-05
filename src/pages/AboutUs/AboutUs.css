@@ -37,7 +37,8 @@
 
 .aboutUsImage img {
   width: 100%;
-  height: 550px;
+  height: 450px;
+  object-fit: cover;
 }
 
 .aboutUsDescription p {
@@ -74,5 +75,10 @@
 
   .aboutUsImage img {
     height: 170px;
+  }
+}
+@media screen and (min-width: 1600px){
+  .aboutUsImage img {
+    height: 700px;
   }
 }

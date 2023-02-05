@@ -20,8 +20,8 @@ const Portfolio = () => {
           <img src={Portfolio_1} alt="" />
           <div class="overlay">
             <div className="portfolioCardHover">
-              <p>Decorative Table</p>
-              <span>Interior</span>
+              <p>Decorative Couch</p>
+              <span>Exterior</span>
             </div>
           </div>
         </div>
@@ -30,7 +30,7 @@ const Portfolio = () => {
           <img src={Portfolio_2} alt="" />
           <div className="overlay">
             <div className="portfolioCardHover">
-              <p>Decorative Table</p>
+              <p>Decorative Sofa</p>
               <span>Interior</span>
             </div>
           </div>
@@ -39,7 +39,7 @@ const Portfolio = () => {
           <img src={Portfolio_3} alt="" />
           <div className="overlay">
             <div className="portfolioCardHover">
-              <p>Decorative Table</p>
+              <p>Three Seater Sofa</p>
               <span>Interior</span>
             </div>
           </div>
@@ -48,7 +48,7 @@ const Portfolio = () => {
           <img src={Portfolio_4} alt="" />
           <div className="overlay">
             <div className="portfolioCardHover">
-              <p>Decorative Table</p>
+              <p>Minimalist Wardrobe</p>
               <span>Interior</span>
             </div>
           </div>
@@ -57,7 +57,7 @@ const Portfolio = () => {
           <img src={Portfolio_5} alt="" />
           <div className="overlay">
             <div className="portfolioCardHover">
-              <p>Decorative Table</p>
+              <p>Bed Side Table</p>
               <span>Interior</span>
             </div>
           </div>
@@ -66,7 +66,7 @@ const Portfolio = () => {
           <img src={Portfolio_6} alt="" />
           <div className="overlay">
             <div className="portfolioCardHover">
-              <p>Decorative Table</p>
+              <p>Study Table</p>
               <span>Interior</span>
             </div>
           </div>
@@ -75,7 +75,7 @@ const Portfolio = () => {
           <img src={Portfolio_7} alt="" />
           <div className="overlay">
             <div className="portfolioCardHover">
-              <p>Decorative Table</p>
+              <p> Wardrobe</p>
               <span>Interior</span>
             </div>
           </div>
@@ -84,7 +84,7 @@ const Portfolio = () => {
           <img src={Portfolio_8} alt="" />
           <div className="overlay">
             <div className="portfolioCardHover">
-              <p>Decorative Table</p>
+              <p>Coffee Table</p>
               <span>Interior</span>
             </div>
           </div>

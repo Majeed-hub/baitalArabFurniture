@@ -9,7 +9,7 @@ import Banner_2 from "../../Assests/images/DesktopHeroSection1.jpg";
 import Banner_3 from "../../Assests/images/DesktopHeroSection2.jpg";
 // import Banner_2 from '../../Assests/images/LivingRoom.jpg';
 // import Banner_3 from '../../Assests/images/Modern_Wardrobe.jpg';
-import Sofa_1 from "../../Assests/images/sofa1.png";
+import Sofa_1 from "../../Assests/images/sofa1.jpg";
 import Sofa_2 from "../../Assests/images/sofa2.jpg";
 import Bed_1 from "../../Assests/images/bed.png";
 import Bed_2 from "../../Assests/images/bed2.jpg";
