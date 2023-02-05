@@ -89,7 +89,7 @@
 }
 @media screen and (min-width: 1600px) and (max-width: 2000px) {
   .itemCardContainer {
-    height: 50vh;
+    height: 700px;
     /* align-items: none; */
   }
 }
