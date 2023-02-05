@@ -71,15 +71,15 @@
     height: 330px;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 410px) {
   .productCard {
     height: 360px;
   }
 }
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 351px) {
   .productCard {
     width: 98vw;
-    height: 380px;
+    height: 430px;
   }
 }
 
