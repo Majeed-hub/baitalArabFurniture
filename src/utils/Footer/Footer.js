@@ -1,12 +1,12 @@
-import React, { useState, useRef } from 'react';
-import emailjs from '@emailjs/browser';
-import 'react-toastify/dist/ReactToastify.css';
-import { ToastContainer, toast } from 'react-toastify';
+import React, { useState, useRef } from "react";
+import emailjs from "@emailjs/browser";
+import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer, toast } from "react-toastify";
 
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
-import './Footer.css';
-
+import "./Footer.css";
+import { HashLink } from "react-router-hash-link/dist/react-router-hash-link.cjs.production";
 
 const Footer = () => {
   // const form = useRef();
@@ -26,8 +26,8 @@ const Footer = () => {
     //   email_id: email,
     //   message: message,
     // };
-    if (name === '' || email === '' || message === '') {
-      alert('Please fill all the fields');
+    if (name === "" || email === "" || message === "") {
+      alert("Please fill all the fields");
     } else {
       emailjs
         .sendForm(
@@ -40,27 +40,27 @@ const Footer = () => {
           (result) => {
             // console.log(result);
             // alert('Success!' + result.status);
-            toast.success('Email Send Successfully', {
-              position: 'top-center',
+            toast.success("Email Send Successfully", {
+              position: "top-center",
               autoClose: 4000,
               hideProgressBar: false,
               closeOnClick: true,
               pauseOnHover: true,
               draggable: true,
               progress: undefined,
-              theme: 'colored',
+              theme: "colored",
             });
           },
           (error) => {
-            toast.error('Failed, Try again', {
-              position: 'top-center',
+            toast.error("Failed, Try again", {
+              position: "top-center",
               autoClose: 2000,
               hideProgressBar: false,
               closeOnClick: true,
               pauseOnHover: true,
               draggable: true,
               progress: undefined,
-              theme: 'colored',
+              theme: "colored",
             });
             // alert('Failed!' + error.status);
             // console.log('FAILED...', error);
@@ -95,15 +95,16 @@ const Footer = () => {
                 textAlign: "center",
               }}
             >
-              Bait al arab furniture manufacturing LLC deals with crafting
-              from the beginning to the end of design.
+              Bait al arab furniture manufacturing LLC deals with crafting from
+              the beginning to the end of design.
             </p>
             <div
               className="social-links"
               style={{ display: "flex", justifyContent: "space-around" }}
             >
               <a
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/baitalarabhomefurniture/"
+                target="_blank"
                 className="footerlink"
                 style={{
                   textDecoration: "none",
@@ -114,7 +115,8 @@ const Footer = () => {
                 instagram
               </a>
               <a
-                href="https://www.facebook.com/"
+                href="https://www.facebook.com/profile.php?id=100086258381847"
+                target="_blank"
                 style={{
                   textDecoration: "none",
                   fontFamily: "Pacifico",
@@ -124,7 +126,8 @@ const Footer = () => {
                 facebook
               </a>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/bait-al-arab-home-furniture-manufacturing-l-l-c-9a7a24251/"
+                target="_blank"
                 style={{
                   textDecoration: "none",
                   fontFamily: "Pacifico",
@@ -178,7 +181,7 @@ const Footer = () => {
               >
                 Sanaya Industrial Area-2, Ajman, UAE
                 <br />
-                Contact number : <br /> 056 229 4750 <br /> 050 309 2539
+                Contact numbers : <br /> 056 229 4750 <br /> 050 309 2539
                 <br /> 052 199 4925
               </p>
             </div>

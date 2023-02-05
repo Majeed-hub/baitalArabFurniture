@@ -1,7 +1,7 @@
 .banner-img {
   width: 100vw;
   height: calc(90vh - 50px);
-  /* object-fit: contain; */
+  object-fit: cover;
   /* height: 100vh; */
 }
 @media screen and (max-width: 640px) {
@@ -76,10 +76,20 @@
   /* justify-content: space-evenly; */
 }
 
+
+
 @media screen and (min-width: 1345px) {
   .itemCardContainer {
     justify-content: space-between;
     height: 75vh;
+    flex-basis: 100%;
     align-items: center;
+  }
+
+}
+@media screen and (min-width: 1600px) and (max-width: 2000px) {
+  .itemCardContainer {
+    height: 50vh;
+    /* align-items: none; */
   }
 }

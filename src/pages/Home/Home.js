@@ -1,38 +1,38 @@
-import React from 'react';
-import './Home.css';
-import { Link } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
+import React from "react";
+import "./Home.css";
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 // photos
-import Banner_1 from '../../Assests/images/DesktopHeroSection.png';
-import Banner_2 from '../../Assests/images/DesktopHeroSection1.jpg';
-import Banner_3 from '../../Assests/images/DesktopHeroSection2.jpg';
+import Banner_1 from "../../Assests/images/DesktopHeroSection.png";
+import Banner_2 from "../../Assests/images/DesktopHeroSection1.jpg";
+import Banner_3 from "../../Assests/images/DesktopHeroSection2.jpg";
 // import Banner_2 from '../../Assests/images/LivingRoom.jpg';
 // import Banner_3 from '../../Assests/images/Modern_Wardrobe.jpg';
-import Sofa_1 from '../../Assests/images/sofa1.png';
-import Sofa_2 from '../../Assests/images/sofa2.jpg';
-import Bed_1 from '../../Assests/images/bed.png';
-import Bed_2 from '../../Assests/images/bed2.jpg';
-import Table_1 from '../../Assests/images/table.png';
-import Table_2 from '../../Assests/images/table1.jpg';
-import Wardrobe_1 from '../../Assests/images/Modern_Wardrobe.jpg';
-import Wardrobe_2 from '../../Assests/images/Modern_Wardrobe1.jpg';
-import Leadership from '../../Assests/images/leadership.png';
-import Career from '../../Assests/images/career.png';
-import Partnership from '../../Assests/images/partnership.png';
-import Press from '../../Assests/images/press.png';
-import Consultation from '../../Assests/images/consultation.svg';
-import Idea from '../../Assests/images/idea.svg';
-import MaterialSelection from '../../Assests/images/choice.svg';
+import Sofa_1 from "../../Assests/images/sofa1.png";
+import Sofa_2 from "../../Assests/images/sofa2.jpg";
+import Bed_1 from "../../Assests/images/bed.png";
+import Bed_2 from "../../Assests/images/bed2.jpg";
+import Table_1 from "../../Assests/images/table.png";
+import Table_2 from "../../Assests/images/table1.jpg";
+import Wardrobe_1 from "../../Assests/images/Modern_Wardrobe.jpg";
+import Wardrobe_2 from "../../Assests/images/Modern_Wardrobe1.jpg";
+import Leadership from "../../Assests/images/leadership.png";
+import Career from "../../Assests/images/career.png";
+import Partnership from "../../Assests/images/partnership.png";
+import Press from "../../Assests/images/press.png";
+import Consultation from "../../Assests/images/consultation.svg";
+import Idea from "../../Assests/images/idea.svg";
+import MaterialSelection from "../../Assests/images/choice.svg";
 
 //components
-import Cart from '../../components/HomeCard/Card';
-import ProductCard from '../../components/ProductCard/ProductCard';
-import TestimonialCard from '../../components/TestimonialCard/TestimonialCard';
-import AboutUsCard from '../../components/AboutUsCard/AboutUsCard';
-import { Article1, Article2, Article3 } from '../BlogDetail/Data/BlogData';
-import BlogCard from '../../components/BlogCard/BlogCard';
-import ReviewCard from '../../components/ReviewCard/ReviewCard';
+import Cart from "../../components/HomeCard/Card";
+import ProductCard from "../../components/ProductCard/ProductCard";
+import TestimonialCard from "../../components/TestimonialCard/TestimonialCard";
+import AboutUsCard from "../../components/AboutUsCard/AboutUsCard";
+import { Article1, Article2, Article3 } from "../BlogDetail/Data/BlogData";
+import BlogCard from "../../components/BlogCard/BlogCard";
+import ReviewCard from "../../components/ReviewCard/ReviewCard";
 
 const Home = () => {
   return (
@@ -156,28 +156,6 @@ const Home = () => {
           <Cart img={Bed_1} title={"Master bed"} />
           <Cart img={Bed_2} title={"Queen bed"} />
         </div>
-        {/* <div className="itemContainer">
-          <div className="itemTitle">
-            <h3>Bed</h3>
-          </div>
-
-          <div className="itemCardContainer">
-            <Cart img={Bed1} title={'Master bed'} price={'500 aed'} />
-            <Cart img={Bed1} title={'Master bed'} price={'500 aed'} />
-            <Cart img={Bed1} title={'Master bed'} price={'500 aed'} />
-          </div>
-        </div> */}
-        {/* <div className="itemContainer">
-          <div className="itemTitle">
-            <h3>Table</h3>
-          </div>
-
-          <div className="itemCardContainer">
-            <Cart img={Table1} title={'Dinning Table'} price={'500 aed'} />
-            <Cart img={Table1} title={'Dinning Table'} price={'500 aed'} />
-            <Cart img={Table1} title={'Dinning Table'} price={'500 aed'} />
-          </div>
-        </div> */}
         <div className="itemCardContainer">
           <ProductCard
             title={"Table"}
@@ -267,7 +245,7 @@ const Home = () => {
             />
             <ReviewCard
               reviewContent={
-                "After working with Al Bayt Furniture I can say that they are well-equipped and use high-quality materials in their production and the craftsmen are so experienced that they can manufacture any design that one offers."
+                "After working with Baital arab Furniture I can say that they are well-equipped and use high-quality materials in their production and the craftsmen are so experienced that they can manufacture any design that one offers."
               }
               author={"- Al Zayan Furniture (Ajman)"}
             />
