@@ -44,24 +44,7 @@ const Home = () => {
           data-bs-ride="carousel"
         >
           <div className="carousel-inner ">
-            <div className="carousel-item active ">
-              <img src={Banner_1} className="d-block banner-img" alt="..." />
-
-              <div className="carousel-caption d-none d-md-block">
-                <h5 className="bannerHeading">Premium Furniture</h5>
-
-                <div className="contactBtn">
-                  <HashLink
-                    className="btn btn-lg btnViewMore contactUsBtn"
-                    smooth
-                    to="/#footer"
-                  >
-                    ORDER NOW
-                  </HashLink>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item">
+            <div className="carousel-item  active ">
               <img src={Banner_2} className="d-block banner-img" alt="..." />
               <div className="carousel-caption d-none d-md-block">
                 <h5 className="bannerHeading">Living Room Furniture</h5>
@@ -81,6 +64,23 @@ const Home = () => {
               <img src={Banner_3} className="d-block banner-img" alt="..." />
               <div className="carousel-caption d-none d-md-block">
                 <h5 className="bannerHeading">Office Furniture</h5>
+                <div className="contactBtn">
+                  <HashLink
+                    className="btn btn-lg btnViewMore contactUsBtn"
+                    smooth
+                    to="/#footer"
+                  >
+                    ORDER NOW
+                  </HashLink>
+                </div>
+              </div>
+            </div>
+            <div className="carousel-item">
+              <img src={Banner_1} className="d-block banner-img" alt="..." />
+
+              <div className="carousel-caption d-none d-md-block">
+                <h5 className="bannerHeading">Premium Furniture</h5>
+
                 <div className="contactBtn">
                   <HashLink
                     className="btn btn-lg btnViewMore contactUsBtn"
