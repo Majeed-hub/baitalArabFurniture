@@ -120,7 +120,7 @@ const Footer = () => {
                 rel="noreferrer"
                 style={{
                   textDecoration: "none",
-                  fontFamily: "Pacifico",
+                  fontFamily: "Pacifico,sans-serif",
                   color: "#f3af3b",
                 }}
               >
@@ -132,7 +132,7 @@ const Footer = () => {
                 rel="noreferrer"
                 style={{
                   textDecoration: "none",
-                  fontFamily: "Pacifico",
+                  fontFamily: "Pacifico,sans-serif",
                   color: "#f3af3b",
                 }}
               >
@@ -165,7 +165,7 @@ const Footer = () => {
                 className="heading"
                 style={{
                   textAlign: "center",
-                  fontFamily: "Belleza",
+                  fontFamily: "Belleza,sans-serif",
                   margin: "10px",
                 }}
               >
@@ -239,14 +239,14 @@ const Footer = () => {
           <div className="column">
             <form ref={form} onSubmit={sendEmail}>
               <h2 className="formHeading">Contact Us</h2>
-              <div class="row">
-                <div class="contact-form padd-15">
-                  <div class="row mb-2">
-                    <div class="form-item col-12 padd-15">
-                      <div class="form-group">
+              <div className="row">
+                <div className="contact-form padd-15">
+                  <div className="row mb-2">
+                    <div className="form-item col-12 padd-15">
+                      <div className="form-group">
                         <input
                           type="text"
-                          class="form-control inputField"
+                          className="form-control inputField"
                           placeholder="Name"
                           id="fullname"
                           name="from_name"
@@ -257,12 +257,12 @@ const Footer = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="row mb-2">
-                    <div class="form-item col-12 padd-15">
-                      <div class="form-group">
+                  <div className="row mb-2">
+                    <div className="form-item col-12 padd-15">
+                      <div className="form-group">
                         <input
                           type="email"
-                          class="form-control inputField"
+                          className="form-control inputField"
                           placeholder="Email"
                           id="email_id"
                           value={email}
@@ -273,13 +273,13 @@ const Footer = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="row mb-3">
-                    <div class="form-item col-12 padd-15">
-                      <div class="form-group">
+                  <div className="row mb-3">
+                    <div className="form-item col-12 padd-15">
+                      <div className="form-group">
                         <textarea
                           id="message"
                           name="message"
-                          class="form-control textField"
+                          className="form-control textField"
                           placeholder="Message"
                           value={message}
                           onChange={(e) => setMessage(e.target.value)}
@@ -288,9 +288,9 @@ const Footer = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="row mb-2">
-                    <div class="form-item col-12 padd-15">
-                      <button type="submit" class="btn formSubmitBtn">
+                  <div className="row mb-2">
+                    <div className="form-item col-12 padd-15">
+                      <button type="submit" className="btn formSubmitBtn">
                         Send Message
                       </button>
                     </div>

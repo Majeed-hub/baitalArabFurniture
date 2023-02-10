@@ -17,15 +17,15 @@ export const BlogCard = ({ id, title, content }) => {
       }}
       className="blogCard"
     >
-      <div class="card-body">
-        <h2 class="card-title">{title}</h2>
-        <p class="card-text" style={{ fontSize: '25px' }}>
+      <div className="card-body">
+        <h2 className="card-title">{title}</h2>
+        <p className="card-text" style={{ fontSize: '25px' }}>
           {content}
         </p>
         <Link className="btn btnViewMore" to={`/blog-detail/${id}`} style={{position:"absolute",bottom:"20px"}}>
           Read More
         </Link>
-        {/* <a href="#" class="btn btn-primary">
+        {/* <a href="#" className="btn btn-primary">
             Go somewhere
           </a> */}
       </div>

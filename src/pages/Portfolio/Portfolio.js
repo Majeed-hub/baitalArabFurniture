@@ -16,9 +16,9 @@ const Portfolio = () => {
         <h1>Products</h1>
       </div>
       <div className="portfolioCardWrapper">
-        <div class="portfolioCard">
+        <div className="portfolioCard">
           <img src={Portfolio_1} alt="" />
-          <div class="overlay">
+          <div className="overlay">
             <div className="portfolioCardHover">
               <p>Decorative Couch</p>
               <span>Exterior</span>
